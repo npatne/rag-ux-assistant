@@ -1,0 +1,120 @@
+
+UX Research and Recommendations V2
+
+User Experience Research and Recommendations
+Researcher and Presenter: Nishad Anil Patne
+Paani Foundation – www.paanifoundation.in
+
+Executive Summary
+Goals:
+To conduct multi-method user experience research to discover usability issues and provide design recommendations backed by empirical findings.
+
+Reasons for Recommendation:
+- Addresses issues identified through usability testing and research.
+- Issues are feasible to prototype and test.
+- Impacts large areas of the website.
+- Aligns design improvements with Nielsen’s Heuristics.
+
+Recommendations:
+- Implement an improved 3-level navigation system.
+- Create a dedicated Activities/Our Work page.
+- Enhance Contact Us page with better form validations.
+
+Key Findings:
+- Stakeholder Analysis
+- Heuristic Evaluation
+- Survey-Based User Research (19 responses)
+- Scenario-Based Usability Testing (5 representative users, 3 tasks)
+
+Major Issues:
+- Website Navigation
+- Content Hierarchy and Organization
+- Contact Us Section
+
+Research Objectives
+Purpose:
+Understand user interaction with the Paani Foundation desktop site and enhance overall UX.
+
+Scope:
+- User Expectations
+- Navigation
+- UI & Design
+- Content Grouping
+- Forms
+- Site Performance
+
+Expected Outcomes:
+- Better understanding of current users
+- Discovery of usability issues
+- Data-backed prototypes to fix them
+
+Organizational Outcomes:
+- Present foundation’s work in a better format
+- Easier ways for users to connect
+- Broader awareness of drought issues
+
+Research Methodology
+1. Heuristic Evaluation:
+   - Used Nielsen’s 10 heuristics and rated issues by severity (Level 1–4).
+   - 8 out of 20 issues validated in later tests.
+   - 5 of those integrated into final recommendations.
+
+2. User Research:
+   - Conducted a survey with 19 responses.
+   - Created personas and mapped them to user stories and acceptance criteria.
+
+3. Usability Testing:
+   - 3 scenarios, 5 participants.
+   - Each tested tasks aligned with user stories.
+   - Tests conducted and recorded via Zoom.
+
+Scenarios Overview:
+Scenario 1: Discover activities the foundation engages in.
+Scenario 2: Find beneficiary details and press articles.
+Scenario 3: Try connecting with the foundation and subscribe using faulty data.
+
+Results & Findings
+Quantitative Results:
+- 11 major usability issues discovered.
+- Most common issues: poor navigation, lack of structure, misplaced “Contact Us.”
+- 100% could find activity info but not press or beneficiary content easily.
+- Long page load times frustrated 4 of 5 participants.
+
+Common UX Problems:
+- Navigation system mismatch with user expectations.
+- Footer content underutilized.
+- Contact info not visible where expected.
+- Poor email validation.
+- Lack of alt-text on images (accessibility).
+- Confusing UI hierarchy.
+- Preference for infographics over video links.
+
+Impact on Recommendations
+While the UI aesthetics were praised, key UX issues required redesign:
+
+1. Navigation (High Priority)
+   - Add global nav bar, contextual secondary nav, and breadcrumb tertiary nav.
+   - Move critical links like "Contact Us" out of footer.
+
+2. Our Work Section (Low Priority)
+   - Combine all activities under one page.
+   - Support with visual summaries and CTA buttons.
+
+3. Contact Us Page (Medium Priority)
+   - Relocate link to primary nav.
+   - Add hover states to icons, improve email visibility.
+   - Add better form validation and clear error messages.
+
+Conclusion and Next Steps
+- Paani Foundation’s UI is visually strong, but UX suffers due to structural issues.
+- Prototype solutions provided for navigation, “Our Work,” and contact page.
+- UX is iterative — recommend repeated testing and refinement until satisfactory.
+
+Steps:
+1. A/B test current vs. proposed prototype
+2. Evaluate performance of changes
+3. Iterate if problems persist or new ones emerge
+
+Appendix:
+- Full documentation and research data:
+  - https://docs.google.com/document/d/1KX-bNPvqhINNEFFjgdH8OY3moq1mLrg7AJcJZeXaA-g

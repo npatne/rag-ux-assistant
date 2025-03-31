@@ -1,0 +1,59 @@
+﻿Nishad A Patne   
+Product Specialist, Management Intern 2023 - Present 
+MS in User Experience  2022 - 2024
+Resume
+Portfolio
+
+
+LEI Projects and Contributions
+
+
+Writing Analytics Tool
+
+
+* Designed mid and high-fidelity interactive prototypes for various WAT application screens. Significant designs included - Feedback Flow, Rubric Creation Flow, Student Performance, and Researcher interface. Design File Link. Link to Feedback Prototype.
+* Conducted Quality Assurance testing, discovering and documenting bugs and potential enhancements in the WAT interface—link to Airtable Bug Log. 
+* Orchestrated internal usability testing to understand initial impressions about the tool outside the development team. The test was a self-paced and self-reported task-based walkthrough of the application. It generated insightful feedback about thematic enhancements and quick improvements while also directing further enhancements & research—link to Final Presentation. 
+* Designed and implemented (CSS) a comprehensive color and typography system to support the application's scaling up while ensuring visual consistency.
+* Co-facilitated the Focus group study involving external participants (ASU Teachers) to investigate how the WAT generated Metric feedback is interpreted and how representative users perceive the UI. This study influenced significant upgrades in the application's WAT Feedback and rubric UX and UI and established the foundation of the research paper submitted to LAK2025.
+* Contributed to qualitative analysis of the Focus Group Data using ASU Betaland AI and assisted in drafting the LAK2025 paper manuscript. 
+* Assisted in drafting the WAT annual report. 
+
+
+iSTART Early
+
+
+* Designed the complete UX and UI (including mid and high-fidelity Prototypes and Design System) for the iSTART Early Teacher’s Interface. Link to Design File. Link to Prototype.
+* Designed and developed the iSTART Early lessons for all 5 strategies in Storyline and helped them integrate into the overall student interface.
+* Enhanced UX/UI and fixed existing issues in multiple games, including - Arfes L3, StarSub, Ask n Draw, Adventure Island, and Meteor Masher (from scratch).
+* Worked on re-theming of the strategy lesson videos.
+
+
+Ad-Hoc Contributions
+* Organized the old code and research files across all the systems. 
+* Ensure bi-weekly distribution of Coh-Metrix desktop software. 
+* Helped in modifying the SoLET Lab website.
+* On-boarded and actively mentored Gaurav, the student worker.
+* Helped onboard Manmeet and Harshil.
+* Actively participated in various team initiatives like folc fest, team presentations, and other activities. 
+
+
+Person Projects relevant to LEI
+
+
+iSTART Early Mobile
+* As a personal project, I created the mobile version of the iSTART Early student interface and presented it as a case study and interactive prototype in my portfolio. Link to design file and prototype.  
+
+
+Jerry Research Aide
+* Inspired by the iSTART Early django-based research interface used to manage early studies and inspired by a class project, Jerry is a prototypical research tool designed to facilitate and manage research efforts in psychology and learning—links to Design File, Prototype, and Case Study.    
+
+
+
+
+Don’t Panic - Job Scam Prevention Resource
+* Co-created job scams and job prevention resource website to help scam-prone jobs seek to recognize or recover from various job scams currently active in the market and impacting job seekers—link to the live website.   
+
+
+RTMT
+* Designed the UI for the reading text management tool, an academic project. Link to prototype.

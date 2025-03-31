@@ -1,0 +1,140 @@
+
+WAT UI Test and Results - UX
+
+WAT Interface:
+UI/UX Report 
+- Nishad Patne, Product Designer, SoLET Lab, ASU
+
+Summary
+Issues in 3 Major User flows with several independent change requests. 
+Strategically testing key user flows to eliminate bias and uncover opportunities for improvement.
+Guided Walkthrough where participants independently self-reported their findings.
+Thoughts about further inquiry.
+
+01 - Test Overview
+02 - Procedure
+03 - Findings & Recommendations
+04 - Conclusion
+
+---
+
+Test Overview
+
+Introduction
+The Writing Analytics Tool (WAT) is currently in development, boasting a robust set of features.
+This stage offers an ideal opportunity to align our vision with user needs, allowing us to test and refine the product as we continue to enhance its capabilities in each iteration.
+
+Why test?
+- Bias Elimination due to internal team very closely associated with the app. 
+- Understanding User Perception
+- Uncovering not just problems but opportunities for improvement.
+
+---
+
+Procedure
+
+Pre-Testing
+I performed an initial walkthrough and then a rigorous testing, discovering several loopholes and suggesting potential areas of improvement.
+Gained thorough Functional and Technical knowledge.
+
+What was the outcome?
+- Understanding of WAT
+- Designed and Implemented Style Guide
+- Redesigned major user flows
+- Discovered several Edge Cases and Potential Enhancements
+- Discovered Loopholes
+
+Testing Methodology
+- Google Form: To gain objective and subjective insights about overall UI.
+- Test Case Sheet: Guided Walkthrough to navigate test while collecting crucial task-specific data (comments, ratings, times and outcomes).
+- Material distributed and collected over email, unique credentials for each participant.
+
+Timeline
+- Avg estimated Time to complete the test - 1hr.
+- Feedback received in 2-week window.
+- 14 Participants
+
+---
+
+Findings and Recommendations
+
+Quantitative Findings (N = 14)
+- Max Task Time: (5 min) Assignment Creation 
+- Usability Score < 3: Adding Students, Selecting Metrics, Publishing Assignment
+- Complexity Score > 3: Assignment Creation
+
+1. Assignment Creation Flow
+  Issues:
+    - Evaluative and Descriptive Metrics
+    - Logical Validations (min - max length, draft dates)
+    - Publishing the Assignment step is confusing!
+    - No cancel/back button
+
+  Recommendations:
+    - Highlight selected metric
+    - Merge tabs, show frequently used metrics at top, rest collapsible
+    - Dynamic Action center for publish/unpublish buttons
+    - Add cancel button and breadcrumbs
+
+2. Adding Students
+  Issues:
+    - Teacher counted as a student
+    - Cannot select all students
+
+  Recommendations:
+    - Provide entry to class from student view on card
+    - Add “select all” checkbox, retain across pages/filters
+
+3. Feedback Flow
+  Issues:
+    - Feedback icon unclear
+    - No search for students
+    - Feedback stems cluttered
+    - Additional comments section unclear
+
+  Recommendations:
+    - Keep feedback icon, add status indicators
+    - Add search/filter by student/feedback
+    - Structured feedback text, formatting options
+
+Application-wide Issues
+
+1. Validations
+    - 404/400 error pages
+    - Custom validations for characters, new lines, filetypes
+    - Logical validations (e.g., draft date order)
+
+2. UX Copy
+    - Clearer names for pages, headings, tables, breadcrumbs
+    - Consistency in language
+    - Contextual buttons in modals (e.g., delete confirmation)
+
+3. Responsive UI
+    - General responsiveness improvement suggestions
+
+Participant-Suggested Enhancements
+1. Search for prompt selection
+2. Auto-save on accidental logout
+3. Auto-transition to WAT score
+4. Seamless student-instructor mode transition
+5. Synchronize Student and Teacher calendars
+6. Color-coded status indicators
+7. Define "mentor text" and "rubrics"
+
+---
+
+Conclusion
+
+Limitations
+- Self-reported, unproctored test may introduce bias
+- Participants not fully representative of end users
+
+Next Steps
+1. Decide and implement issue fixes
+2. Further testing with teachers/TAs
+3. Test for scale (many submissions across classes)
+4. Test for interpretation of WAT Scores
+5-7. Open to suggestions…
+
+Thank You!
+Questions? Feedback?

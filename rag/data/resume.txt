@@ -1,0 +1,66 @@
+NISHAD ANIL PATNE
+
+CONTACT INFORMATION:
+LinkedIn Profile: https://www.linkedin.com/in/nishad-patne/
+Design Portfolio: https://nishadpatne.framer.website/
+Email: nishadpux@gmail.com
+Phone: +1 480-468-6345
+
+PROFESSIONAL SUMMARY:
+Creative and detail-oriented UX Designer with over 3 years of experience in B2B and B2C enterprise application design, development, and research. Expertise in multi-faceted user and usability research, cross-functional collaboration, and creating engaging, user-centered experiences that drive business results.
+
+WORK EXPERIENCE:
+
+Role: Product Designer
+Organization: SoLET Lab, Arizona State University
+Location: Tempe, Arizona
+Period: February 2023 – Present
+Accomplishments:
+- Led end-to-end UX Design process, including requirement gathering, creating interactive prototypes, wireframes, and design systems (with CSS implementation) for admin and learning management portals (Grade School and Higher Ed), enhancing assignment management, student performance tracking, and data visualizations.
+- Informed 15+ actionable changes and 1 research study (in peer review, LAK25 Conference) by co-leading a focus group study on user perceptions of the WAT (SoLET Lab product) interface usability and AI-generated (in-house NLP) feedback involving 10 participants.
+- Reduced task time by 20% and user abandonment by 35% by leading comprehensive usability testing for WAT, pinpointing critical user flow issues, and discovering and fixing 25+ bugs through 16+ user interviews.
+- Achieved 25% increase in students' engagement levels and a 20% improvement in comprehension skills by designing and developing 10+ end-to-end educational modules, games, and lessons using Articulate Storyline 360.
+
+Role: Front-End Developer (Business Technology Analyst)
+Organization: Deloitte
+Location: Pune, India
+Period: January 2021 – May 2022
+Accomplishments:
+- Increased new user onboarding by 30% through developing and implementing 7+ client change requests, collaborating with a team of 5 front-end developers and 25+ cross-functional professionals.
+- Enhanced inclusivity by 30% by achieving web application accessibility compliance with WCAG AA/AAA standards and ADA, as measured by Accessibility Inspection tools.
+- Boosted user retention by 60% and reduced bugs by 25% by rebuilding the enterprise-grade B2B web application from legacy Aura to Modern LWC framework within the Salesforce environment.
+- Improved communication and project outcomes by facilitating cross-border meetings between US and India teams, ensuring clear translation of business requirements for over 5+ client change requests and module upgrades (spanning 5 agile sprints).
+
+PROJECTS:
+
+Project Name: ToolTips, Figma Plugin
+Period: October 2023 – November 2023
+Accomplishments:
+- Innovated and launched a Figma plugin to assist in creating tooltips after mastering Figma API; quickly gained traction with 2,500+ users and 150+ saves, reflecting high demand and utility.
+- Published two blogs on developing and using Figma plugins, contributing to community knowledge.
+
+EDUCATION:
+
+Degree: Master of Science, User Experience (Human-Computer Interaction)
+Institution: Arizona State University
+Location: Tempe, Arizona
+Period: August 2022 – May 2024
+
+Degree: Bachelor of Technology, Electronics Engineering
+Institution: Veermata Jijabai Technological Institute
+Location: Mumbai, India
+Period: August 2016 – September 2020
+
+CERTIFICATIONS:
+
+- Career Essentials in Generative AI by Microsoft and LinkedIn
+  Certificate Link: https://linkedin.com/learning/certificates/818840416c73cc587fe2c8841110a2eafcbf1e6faf4a873742a6633da441e1c3?u=70944002
+- Human Research - IRB – Social and Behavioral Research
+  Certificate Link: https://www.citiprogram.org/verify/?w11958ea3-f63e-406a-8d84-65596859dd3b-54328931
+
+SKILLS:
+
+UX Research: User Research, Surveys, User Stories, Cognitive Walkthrough, Information Architecture, User Journey Mapping, Affinity Mapping, Human Factors Engineering, A/B Testing, Usability Testing
+User Experience Design: Lean Product Design, Wireframes and Prototypes, User Interface Design, User Flows, Storyboards, Interaction Design, Visual Design, Responsive Design, Mobile-first Design, Design Patterns
+Design Tools and Software: Figma, Miro, Adobe Photoshop & Illustrator, Adobe XD, Sketch, Balsamiq, Framer, Webflow, Atlassian, Maze, Camtasia, Vyond
+Web Design, Development, and Frameworks: HTML, CSS, JavaScript, Python, Django, React.js, Salesforce (CMS) LWC, JAWS, SaaS, Salesforce Lightning Design System, Google Material Design, Bootstrap, iOS, Android
