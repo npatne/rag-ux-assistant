@@ -5,6 +5,10 @@ from haystack.components.writers import DocumentWriter
 from haystack.utils import Secret
 from haystack_integrations.components.embedders.fastembed import FastembedSparseDocumentEmbedder
 
+from dotenv import load_dotenv
+# Load environment variables from .env file
+load_dotenv()
+
 
 class QdrantManager:
     def __init__(self):

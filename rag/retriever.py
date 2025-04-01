@@ -8,6 +8,10 @@ from haystack.components.builders.prompt_builder import PromptBuilder
 from google import genai
 import os
 
+from dotenv import load_dotenv
+# Load environment variables from .env file
+load_dotenv()
+
 
 class UXChatAssistant:
     def __init__(self):

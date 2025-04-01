@@ -3,8 +3,11 @@ from haystack import Document, Pipeline
 from qdrant_manager import QdrantManager
 from haystack.dataclasses import Document
 
-
 import os
+
+from dotenv import load_dotenv
+# Load environment variables from .env file
+load_dotenv()
 
 # Detailed documents data provided by you
 documents_data = [
