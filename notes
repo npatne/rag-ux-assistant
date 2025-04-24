@@ -1,0 +1,98 @@
+Below is a detailed summary of the plan based on our discussion and the current code. This summary outlines both the architectural changes and operational flow to refactor your existing functions—separating the chat session management into its own module (e.g., session_manager.py)—and to streamline the retrieval and prompt-building workflows.
+
+─────────────────────────────  
+■ 1. Overall Architecture
+
+- **Decouple Retrieval and Session Management:**  
+  Split responsibilities by keeping retrieval and prompt construction in one component (the “retriever” module) while moving chat session state management, history handling, token counting, summarization, and cleanup to a dedicated session manager module.  
+- **In-Memory Chat Sessions:**  
+  For your portfolio use case, each webpage instance (without login) maintains an in-memory session that lasts roughly 40–60 minutes, with a 15-minute inactivity timeout. Every session includes conversation history and, if applicable, pre-attached case study documents.  
+- **Concurrency Expectations:**  
+  Designed for 15–20 concurrent sessions typically, but with a peak up to around 50. The lightweight in-memory approach, given your VM specs (2-core, 12–24 GB RAM), is sufficient.
+
+─────────────────────────────  
+■ 2. Session Manager Module (session_manager.py)
+
+The new session manager will handle:
+- **Session Setup and Storage:**  
+  - Maintain a dictionary or similar store keyed by session ID.  
+  - Each session stores its chat history as a list of objects (e.g., `{ query, prompt, answer }`) and optionally attached "casestudy_docs" if a specific document is injected.  
+- **Chat History Management:**  
+  - Append each new user query and LLM response.  
+  - Periodically check overall token count via the Vertex AI integrated tokenizer.  
+  - When token limits approach critical thresholds, summarize older turns (or truncate them) and store a “summary” in the session.  
+- **Token Counting & Summarization:**  
+  - Leverage the Vertex AI SDK (compute_tokens) to monitor token usage for the LLM prompt.  
+  - If the token count exceeds a set threshold (set safely below 1M tokens), trigger a summarization routine to condense earlier parts of the conversation while maintaining context.  
+- **Session Cleanup:**  
+  - Automatically terminate and erase sessions after a 15-minute inactivity window.  
+  - Optionally run a background job that periodically scans for stale sessions and cleans up associated data and documents.  
+- **Job Queue and Concurrency Management:**  
+  - If needed, manage a small async queue (or worker pool) to gracefully handle concurrent session updates. Ensure thread-safe operations if using multi-threaded approaches.
+
+─────────────────────────────  
+■ 3. Retrieval and Prompt-Building Workflow
+
+- **Refactored get_response Function:**  
+  - The new version should accept parameters such as the user query, chat mode, chat context, and optional active case study references.  
+  - Instead of sending the entire chat history each time, it will combine the new query with the last LLM answer (or a brief summary thereof) to send into the retriever. This “contextual query” approach helps narrow the retrieval to the most relevant documents.
+- **Dynamic Filters and Modes:**  
+  - Maintain several modes (e.g., “general,” “specific_retrieval,” “summarization”).  
+  - In “specific mode” (e.g., for case studies), rather than performing repeated retrievals, simply inject the whole static document (up to about 10 pages) to guarantee consistent context.
+- **Prompt Construction:**  
+  - The prompt builder function (still part of the retrieval module) now accepts the query, a list of documents, the chat context, and the mode.  
+  - The prompt template will evolve based on the mode and include instructions, a relevant snippet of context (e.g., summary plus recent message turns), and then the question.
+- **Fallback Mechanisms:**  
+  - Continue to utilize a fallback routine (e.g., returning a funny GIF) if retrieval is insufficient or the LLM response is generic or uncertain.
+
+─────────────────────────────  
+■ 4. Integration: How it All Works Together
+
+1. **Incoming Request:**  
+   - A new user message arrives along with a session ID (either via a URL parameter or cookie).  
+   - The session manager retrieves or creates a corresponding session store.
+   
+2. **Combining Context for Retrieval:**  
+   - Instead of using full chat history, build a context query that consists of the new user input plus the last LLM answer (or an aggregated summary of previous interactions).  
+   - For specific inquiries (e.g., “expand on this” or “what are the business impacts of this?”), consider merging this with the last answer, which should guide the retriever in fetching the most relevant docs.
+
+3. **Retrieval Step:**  
+   - Use the hybrid_retrieve function to get relevant documents from your QdrantDocumentStore using the constructed query.
+   - For case study or specific modes, check if the session has a cached document (casestudy_docs) and use that to formulate the final prompt.
+
+4. **Building and Checking the Prompt:**  
+   - Construct the prompt with the new query, injected chat context (including summary and recent history), and retrieved documents.
+   - Use the Vertex AI SDK to count tokens. If the combined prompt is too lengthy, invoke the summarization routine to trim the chat context.
+   
+5. **LLM Query and Response:**  
+   - Send the constructed prompt to the LLM.  
+   - Record the LLM’s answer along with the associated query and prompt in the session’s chat history.
+   
+6. **Session Update and Maintenance:**  
+   - Update the “last_activity” timestamp for the session to prevent premature cleanup.
+   - Schedule or trigger background cleanup jobs to discard sessions after inactivity.
+
+─────────────────────────────  
+■ 5. Benefits and Tradeoffs
+
+- **Context Precision:**  
+  By using the new query and the most recent answer (instead of the full history) in retriever calls, you reduce noise and better target contextual document retrieval. However, you must ensure that broader session context isn’t lost—hence the periodic summarization.
+  
+- **Resource Management:**  
+  With a lightweight in-memory session store and periodic cleanup, you keep memory usage low and ensure the system scales on your current VM. The design also leaves an easy path to scaling (using a lightweight DB like SQLite if ever needed) without a complete overhaul.
+  
+- **Modularity and Extensibility:**  
+  Separating the session handling into its own module simplifies testing and future enhancements. The retriever logic remains focused on obtaining relevant documents, while the session manager takes care of state, token counting, summarization, and session expiration.
+
+─────────────────────────────  
+■ 6. Conclusion
+
+In summary, the refactored design involves:
+- **Creating a dedicated session manager module** (session_manager.py) that oversees session initialization, state storage (chat history, case study docs), token management, and cleanup.
+- **Adapting the retriever and prompt-building functions** to accept just the new query, mode, and minimal chat context (using the latest answer and/or summaries) rather than the full history.
+- **Leveraging Google’s Vertex AI SDK** for token counting to keep your prompt within model limits, triggering summarization where needed.
+- **Ensuring that specific modes (like case studies) bypass repetitive retrieval** by injecting cached documents as needed.
+
+Following this plan will make your system robust, modular, and scalable for a portfolio site where chat sessions are short-lived, light on storage, and focused on delivering an engaging user experience.
+
+This extensive summary should help guide you in refactoring your codebase and building the next iteration of your AI helper bot.

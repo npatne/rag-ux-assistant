@@ -1,0 +1,432 @@
+Query 1: Who is Nishad Patne?
+Answer: Nishad Patne is a creative and detail-oriented UX Designer with over 3 years of experience. He has a Master's degree in User Experience from Arizona State University and a Bachelor's in Electronics Engineering. Nishad has experience in B2B and B2C enterprise application design, development, and research. He is skilled in user and usability research, cross-functional collaboration, and creating user-centered experiences. He also created a Figma plugin called ToolTips that has gained a lot of users!
+
+Do you have any other questions about Nishad? Perhaps you'd like to know more about his projects or experience?
+
+Sources: ['Nishad Patne Resume', 'Nishad LEI Contributions', 'Paani Foundation UX Research and Recommendations', 'WAT UI Test and Results', 'Nishad Patne Resume']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 2: What is Nishad's UX design background?
+Answer: Nishad has a strong UX design background with over 3 years of experience in both B2B and B2C applications. He's skilled in all aspects of the UX design process, from research and user testing to creating wireframes, prototypes, and design systems. He has experience with the SoLET Lab at Arizona State University, where he led the UX design for educational portals. He also worked at Deloitte as a Front-End Developer, where he focused on accessibility and improving user onboarding. He's currently pursuing a Master's in UX at Arizona State University, so he's also up-to-date on the latest in the field.
+
+Would you like me to elaborate on any of these points or tell you more about a specific project?
+
+Sources: ['Nishad Patne Resume', 'Nishad LEI Contributions', 'Paani Foundation UX Research and Recommendations', 'Nishad Patne Resume', 'Nishad LEI Contributions']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 3: Can you tell me about Nishad’s resume?
+Answer: Certainly! Nishad's resume highlights their experience and skills in UX Design and related fields. Here's a breakdown:
+
+*   **Professional Summary:** Nishad is a creative and detail-oriented UX Designer with over 3 years of experience, focusing on user-centered design and research.
+*   **Work Experience:**
+    *   **Product Designer at SoLET Lab, Arizona State University (February 2023 – Present):** This role demonstrates their hands-on experience in the full UX design process, including research, prototyping, and design systems. They've also been involved in usability testing and research studies.
+    *   **Front-End Developer (Business Technology Analyst) at Deloitte (January 2021 – May 2022):** This role showcases their technical skills and ability to contribute to front-end development, as well as their experience in web accessibility and cross-functional collaboration.
+*   **Projects:** Nishad has completed several personal and academic projects including:
+    *   ToolTips, Figma Plugin: This project demonstrates their ability to create and launch a Figma plugin, which gained significant traction, and share their knowledge through blogs.
+    *   iSTART Early Mobile (Personal Project)
+    *   Jerry Research Aide
+    *   Don't Panic - Job Scam Prevention Resource
+    *   RTMT
+*   **Education:** Nishad is currently pursuing a Master of Science in User Experience at Arizona State University. They also have a Bachelor of Technology in Electronics Engineering.
+*   **Certifications:** Nishad has certifications in Generative AI and Human Research, showcasing their commitment to staying current in their field.
+*   **Skills:** They have a wide range of UX research and design skills, including user research, usability testing, prototyping, and design tools like Figma, Miro, and Adobe Creative Suite, as well as web development skills.
+
+Overall, the resume showcases Nishad's strong foundation in UX design, with a blend of research, design, and technical skills. They have experience in both academic and professional settings and are clearly dedicated to user-centered design.
+
+Is there anything specific you'd like me to elaborate on? Perhaps a particular role, skill, or project?
+
+Sources: ['Nishad LEI Contributions', 'Nishad Patne Resume', 'WAT UI Test and Results', 'Nishad Patne Resume', 'Nishad LEI Contributions']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 4: What projects has Nishad contributed to?
+Answer: Nishad has contributed to a variety of projects, showcasing their skills in both UX design and front-end development. Here's a breakdown:
+
+**At SoLET Lab (Arizona State University):**
+
+*   **WAT (Writing Analytics Tool):** Nishad worked on various aspects of this project, including designing prototypes, conducting quality assurance testing, usability testing, and implementing a color and typography system. They also co-facilitated a focus group study and contributed to the LAK2025 research paper.
+*   **iSTART Early:** Nishad designed the complete UX/UI for the teacher's interface, including prototypes and a design system. They also designed and developed lessons and enhanced the UX/UI for existing games.
+*   **iSTART Early Mobile:** As a personal project, Nishad created a mobile version of the student interface.
+*   **Jerry Research Aide:** Nishad designed this research tool.
+
+**At Deloitte:**
+
+*   Nishad worked as a Front-End Developer and contributed to multiple projects, focusing on web application development and accessibility compliance.
+
+**Personal Projects:**
+
+*   **ToolTips Figma Plugin:** Nishad created and launched a Figma plugin.
+*   **Don't Panic - Job Scam Prevention Resource:** Nishad co-created a website to help job seekers avoid scams.
+*   **RTMT:** Nishad designed the UI for the reading text management tool.
+
+Would you like to know more about any specific project or area of expertise?
+
+Sources: ['Nishad LEI Contributions', 'Nishad Patne Resume', 'Paani Foundation UX Research and Recommendations', 'Nishad Patne Resume', 'Nishad LEI Contributions']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 5: Summarize this case study.
+Answer: ## iSTART Early Mobile App: Bringing Learning to Life on the Go!
+
+This case study dives into the exciting journey of transforming the iSTART Early educational tool from a desktop experience into a dynamic and engaging mobile app for kids in grades 3-5.
+
+**The Challenge:** To adapt a powerful learning system to the smaller screens of phones and tablets, making it fun and effective.
+
+**The Solution:** A mobile app designed with:
+
+*   **Research-Driven Approach:** Grounded in educational science and designed with empathy for students, parents, and teachers.
+*   **Engaging Design:** A space-themed UI and interactive elements to spark curiosity.
+*   **AI-Powered Learning:**  Integrating Matty, a conversational AI agent, to personalize learning experiences.
+*   **Key Features:** Dashboards, interactive quizzes, assignments, and a chat interface with Matty.
+*   **Iteration and Collaboration:**  Constant feedback from developers and researchers to improve the app.
+
+**Why Mobile?** To bring learning into the home, provide parents with easy progress tracking, and extend the reach of educational tools globally.
+
+**What's Next?** User testing and further development of features to create the best possible learning experience.
+
+**Think this is cool?**
+
+**Want to know more about how we used AI? Interested in the design process? Did the space theme work? Ask away!**
+
+Sources: ['iSTART Early Mobile App Case Study', 'iSTART Early Mobile App Case Study']
+Mode: summarization
+Fallback: False
+GIF: None
+
+================================================================================
+Query 6: Can you summarize the LEI contributions?
+Answer: ## Nishad's Amazing LEI Contributions: Making Learning Better!
+
+Nishad Patne, a passionate User Experience (UX) enthusiast, has been a powerhouse of design and development at the Learning Engineering Institute (LEI) since 2023! He's deeply involved in multiple projects, making learning experiences smoother and more engaging.
+
+Here's a taste of what Nishad has been up to:
+
+**Leading the Charge on Learning Analytics:** He's been crucial in designing a powerful tool called "Writing Analytics Tool" (WAT), crafting interactive prototypes, fixing bugs, conducting usability tests (and the presentations that came with them!), and even building a consistent visual style guide (colors and typography) for the application. He also helped lead studies, including a focus group with ASU teachers, that directly informed improvements to WAT's feedback and user interface.
+
+**Making iSTART Early Shine:** Nishad took the reins on the entire UX/UI design for the iSTART Early Teacher's Interface, developing lessons, and even improving existing games to make the learning process fun!
+
+**Beyond the Basics:** He's not just limited to those projects! Nishad has been busy organizing code, distributing software, and helping with website updates. He's also mentored new team members and actively participates in team-building activities.
+
+**Passion Projects & Personal Growth:** Nishad goes above and beyond! He's created a mobile version of iSTART Early and designed "Jerry," a prototype research tool. Plus, he co-created a job scam prevention resource to help people stay safe!
+
+**In short: Nishad is a talented and dedicated designer and developer who consistently brings creativity and innovation to the LEI!**
+
+**Got questions?** I'm happy to dive deeper into any of these projects or Nishad's contributions. Ask away!
+
+Sources: ['Nishad LEI Contributions', 'Nishad LEI Contributions']
+Mode: summarization
+Fallback: False
+GIF: None
+
+================================================================================
+Query 7: Give me an overview of the Pull-Chain Fan Usability Research.
+Answer: Ever wrestled with a pull-chain ceiling fan? This research dives into why they can be so frustrating!  The study found that even though people use these fans all the time, they often struggle with them.  Participants had trouble telling which chain controlled what, struggled to remember fan speeds, and generally felt annoyed.  The researchers pinpointed the problems: it's hard to tell the chains apart, our memories aren't great at remembering the speed settings, and the lack of clear feedback makes things worse.  
+
+But there's a simple fix: adding an **icon-indicator system** showing speed settings (like "1, 2, 3") and making the speed chain more easily identifiable. This would significantly improve the user experience!
+
+**Want to know more?** Did the study consider different fan designs?  How would it apply to smart fans?  What about the impact of light level on perception?  Let's explore the details!
+
+Sources: ['Pull-Chain Fan Usability Research', 'Pull-Chain Fan Usability Research', 'Pull-Chain Fan Usability Research']
+Mode: summarization
+Fallback: False
+GIF: None
+
+================================================================================
+Query 8: What was the internal usability finding in iSTART Early?
+Answer: The internal usability test of the iSTART Early web application, conducted in November-December 2024, revealed several key findings, primarily focused on the Teacher's Interface. Here's a breakdown:
+
+*   **Positive Aspects:** Participants generally found the application's layout clean and intuitive.
+*   **Key Usability Issues:**
+    *   **UX Copy:** A significant area of concern was the quality of the user interface copy. Participants noted issues with:
+        *   Inconsistent verbiage (e.g., phrasing in messages and labels)
+        *   Misaligned tone
+        *   Grammatical errors
+        *   Unclear labels
+        *   Missing or unhelpful tooltips
+    *   **Navigation:** Some aspects of the navigation were unclear or inconsistent. One specific example was the placement of the "Create Classroom" feature.
+    *   **Development Bugs:** Several development-related issues were identified:
+        *   Progress tracking and synchronization problems between the Teacher and Student interfaces.
+        *   Notification container opacity issues (making text hard to read).
+        *   Bugs in class creation.
+    *   **Engagement:** The monotone lesson voices were noted as potentially disengaging for younger students.
+
+*   **Recommendations:** The primary recommendation was to overhaul the UX copy to ensure clarity, consistency, and helpfulness. This included improving headings, labels, navigation elements, confirmation messages, and tooltips.
+
+The goal of the test was to identify areas for improvement before a broader usability test.
+
+Would you like me to elaborate on any of these findings or discuss potential solutions?
+
+Sources: ['iSTART Early Internal Usability Test', 'iSTART Early Internal Usability Test', 'iSTART Early Internal Usability Test']
+Mode: specific_retrieval
+Fallback: False
+GIF: None
+
+================================================================================
+Query 9: What kind of feedback was recorded in the WAT UI test?
+Answer: The WAT UI test, conducted by Nishad Patne, collected both **quantitative and qualitative feedback** to understand user experience with the Writing Analytics Tool (WAT). Here's a breakdown:
+
+*   **Quantitative Data:** This included measurable information like:
+    *   **Usability scores:** Ratings on how easy it was to use certain features.
+    *   **Task completion times:**  How long it took participants to complete specific tasks.
+    *   **Complexity scores:**  How difficult users found certain aspects of the UI.
+*   **Qualitative Data:** This involved subjective insights and opinions, such as:
+    *   **Comments and feedback:**  Participants provided written feedback on their experiences during the test.
+    *   **Observations from the Guided Walkthrough:** Testers noted specific issues and areas for improvement as participants used the tool.
+    *   **Participant-Suggested Enhancements:** Users provided ideas for new features and improvements.
+
+The data was collected using a Google Form to gather objective and subjective insights on the overall UI. A Test Case Sheet was used for a guided walkthrough, recording comments, ratings, times, and outcomes for specific tasks.
+
+For more information about different data collection methods in UX testing, you might find resources like this helpful: [https://www.nngroup.com/articles/ux-research-cheat-sheet/](https://www.nngroup.com/articles/ux-research-cheat-sheet/) (Nielsen Norman Group)
+
+Do you have any specific aspects of the feedback collection you'd like to explore further?  I'm happy to delve deeper into the methodologies or the types of findings!
+
+Sources: ['WAT UI Test and Results', 'WAT UI Test and Results']
+Mode: specific_retrieval
+Fallback: False
+GIF: None
+
+================================================================================
+Query 10: What did Nishad recommend for the Paani Foundation website?
+Answer: Nishad Patne's UX research and recommendations for the Paani Foundation website focused on improving the user experience, despite the website having strong visual appeal. Here's a breakdown:
+
+**Key Areas for Improvement:**
+
+*   **Navigation:**
+    *   The main focus was to improve the website's navigation which was confusing.
+    *   This involved implementing a 3-level navigation system. This likely includes a global navigation bar (top), contextual secondary navigation (perhaps within sections), and breadcrumb navigation (for deeper pages).
+    *   Moving important links like "Contact Us" from the footer to a more prominent place.
+*   **Our Work/Activities Section:**
+    *   Creating a dedicated "Activities/Our Work" page to combine all the foundation's activities.
+    *   Supporting this with visual summaries and call-to-action (CTA) buttons to encourage user engagement.
+*   **Contact Us Page:**
+    *   Relocating the "Contact Us" link to the primary navigation for better visibility.
+    *   Adding hover states to icons for better user interaction.
+    *   Improving email visibility for easier access.
+    *   Implementing better form validation and clear error messages to avoid user frustration.
+
+**Why These Recommendations?**
+
+The recommendations were driven by the following:
+
+*   **Usability Testing:** Results from scenario-based usability testing (5 users, 3 tasks) highlighted specific problems.
+*   **User Research:** A survey (19 responses) provided insights into user behavior and expectations.
+*   **Heuristic Evaluation:** Applying Nielsen's usability heuristics pinpointed design flaws.
+*   **Addressing Key Issues:** These recommendations tackle the identified major issues of poor navigation, lack of content structure, and problems with the "Contact Us" section.
+
+**Next Steps:**
+
+Nishad recommended iterative improvements, starting with A/B testing the current website vs. the proposed prototype, and then evaluating the performance of the changes and iterating again to address any persistent or new issues.
+
+You can find the full documentation and research data here: [https://docs.google.com/document/d/1KX-bNPvqhINNEFFjgdH8OY3moq1mLrg7AJcJZeXaA-g](https://docs.google.com/document/d/1KX-bNPvqhINNEFFjgdH8OY3moq1mLrg7AJcJZeXaA-g)
+
+Do you have any specific questions about any of these recommendations? I'd be happy to provide more details!
+
+Sources: ['Paani Foundation UX Research and Recommendations', 'Paani Foundation UX Research and Recommendations']
+Mode: specific_retrieval
+Fallback: False
+GIF: None
+
+================================================================================
+Query 11: Tell me more about the user psychology aspects in fan usability.
+Error: Unknown operator match used in filters
+================================================================================
+Query 12: Explain the UI design changes in the iSTART case study.
+Error: Unknown operator match used in filters
+================================================================================
+Query 13: Details about heuristic evaluations in Paani Foundation study?
+Error: Unknown operator match used in filters
+================================================================================
+Query 14: What is Nishad's favorite project?
+Answer: It's tough to say definitively what Nishad's *favorite* project is, but based on the information, it seems like he's most proud of the **iSTART Early Mobile** project. It's highlighted as a personal project, demonstrating initiative and the ability to apply his skills independently. Plus, he created a case study and interactive prototype for it, which shows he's invested in showcasing this work.
+
+Would you like to know more about iSTART Early Mobile, or perhaps compare it to some of his other projects?
+
+Sources: ['Nishad LEI Contributions', 'Nishad Patne Resume', 'Paani Foundation UX Research and Recommendations', 'Nishad LEI Contributions', 'Nishad Patne Resume']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 15: List all case studies Nishad has worked on.
+Answer: Based on the provided information, Nishad has worked on these case studies:
+
+*   **LEI Projects and Contributions - WAT (SoLET Lab product)**: This includes a focus group study.
+*   **iSTART Early Mobile**: This is a personal project where Nishad created a mobile version of the iSTART Early student interface.
+*   **Jerry Research Aide**: This is a prototypical research tool.
+*   **Don’t Panic - Job Scam Prevention Resource**
+
+Would you like me to elaborate on any of these or help you find anything else in the context?
+
+Sources: ['Nishad Patne Resume', 'Nishad LEI Contributions', 'Nishad LEI Contributions', 'iSTART Early Mobile App Case Study', 'Nishad Patne Resume']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 16: Tell me something funny.
+Answer: Alright, let's see... How about this:
+
+Why don't scientists trust atoms?
+
+Because they make up everything!
+
+Do you want to hear another one, or are you more interested in talking about my portfolio? I'm ready to talk about iSTART Early, WAT, or anything else you have in mind!
+
+Sources: ['iSTART Early Mobile App Case Study', 'Nishad LEI Contributions', 'Pull-Chain Fan Usability Research', 'WAT UI Test and Results', 'WAT UI Test and Results']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 17: What’s Nishad’s star sign?
+Answer: I'm sorry, but I don't have access to Nishad's personal information, such as their star sign. However, I can tell you a lot about their UX design experience! Would you be interested in learning more about Nishad's projects, skills, or experience?
+
+Sources: ['Nishad LEI Contributions', 'Nishad Patne Resume', 'Paani Foundation UX Research and Recommendations', 'Nishad LEI Contributions', 'Nishad Patne Resume']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 18: Show all details of UX testing by Nishad.
+Answer: Okay, let's dive into the UX testing Nishad conducted on the Writing Analytics Tool (WAT). Here's a breakdown of the key details:
+
+**1. Test Overview:**
+
+*   **Purpose:** To align the team's vision with user needs, eliminate bias from being too closely associated with the app, and uncover improvement opportunities.
+
+**2. Procedure:**
+
+*   Nishad performed an initial walkthrough of the WAT.
+*   Then, a rigorous testing phase was conducted, identifying several areas for improvement.
+*   Nishad gained functional and technical knowledge of the tool.
+*   **Outcome:**
+    *   Understanding of WAT
+    *   Designed and Implemented Style Guide
+    *   Redesigned major user flows
+    *   Discovered several Edge Cases and Potential Enhancements
+    *   Discovered Loopholes
+*   **Testing Methodology:**
+    *   Google Form: Used to gather objective and subjective insights about the overall UI.
+    *   Test Case Sheet: Guided walkthrough to navigate the test while collecting data (comments, ratings, times, and outcomes).
+    *   Material distributed and collected via email, with unique credentials for each participant.
+*   **Timeline:**
+    *   Average estimated test completion time: 1 hour.
+    *   Feedback collection window: 2 weeks.
+    *   Participants: 14
+
+**3. Findings & Recommendations:**
+
+*   **Quantitative Findings (N = 14):**
+    *   Identified issues in 3 major user flows, with several independent change requests.
+    *   **Assignment Creation Flow:** Usability score < 3 (low) for adding students, selecting metrics, and publishing assignments.
+        *   Complexity score > 3 (high) for assignment creation.
+        *   **Issues:**
+            *   Evaluative and descriptive metrics
+            *   Logical validations (min-max length, draft dates)
+            *   Publishing assignment step is confusing
+            *   No cancel/back button
+        *   **Recommendations:**
+            *   Highlight selected metrics
+            *   Merge tabs, show frequently used metrics at the top, and make the rest collapsible
+            *   Dynamic action center for publish/unpublish buttons
+            *   Add cancel button and breadcrumbs
+    *   **Adding Students Issues:**
+        *   Teacher counted as a student.
+        *   Cannot select all students.
+        *   **Recommendations:**
+            *   Provide entry to the class from the student view on the card.
+            *   Add a "select all" checkbox, retain across pages/filters.
+    *   **Feedback Flow Issues:**
+        *   Feedback icon unclear.
+        *   No search for students.
+        *   Feedback stems cluttered.
+        *   Additional comments section unclear.
+        *   **Recommendations:**
+            *   Keep feedback icon, add status indicators.
+            *   Add search/filter by student/feedback.
+            *   Structured feedback text, formatting options.
+    *   **Application-wide Issues:**
+        *   **Validations:** 404/400 error pages, custom validations for characters, new lines, file types, and logical validations (e.g., draft date order).
+        *   **UX Copy:** Needed clearer page names, headings, tables, and breadcrumbs; consistency in language; and contextual buttons in modals (e.g., delete confirmation).
+        *   **Responsive UI:** General responsiveness improvement suggestions.
+    *   **Participant-Suggested Enhancements:** The document mentions these but does not specify what they are.
+
+**4. Conclusion:**
+
+*   The document does not have a "Conclusion" section.
+
+Is there anything specific you'd like to know about the UX testing? For example, I could elaborate on specific recommendations, testing methods, or findings if you'd like.
+
+Sources: ['WAT UI Test and Results', 'Nishad Patne Resume', 'Nishad LEI Contributions', 'Nishad Patne Resume', 'Nishad LEI Contributions']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 19: Give me insights from all research projects.
+Answer: Okay, I can definitely give you some insights from your research projects. Based on the information you've provided, here's a breakdown of the key takeaways from your projects:
+
+**Writing Analytics Tool (WAT) UI Test:**
+
+*   **Key Issues:** Your testing revealed significant issues in the assignment creation flow (confusing steps and unclear metrics), adding students (teacher mistakenly counted as a student and missing "select all" functionality), and feedback flow (unclear icons, lack of search, cluttered stems). There were also application-wide issues regarding validations, UX copy, and responsiveness.
+*   **Recommendations:** You recommended specific fixes for each of these, such as clarifying the metric selection, adding a cancel button, and improving search/filtering.
+*   **Additional Insights:** Participants also suggested enhancements such as search for prompt selection, autosave, and color-coded status indicators.
+*   **Overall, this research focused on improving the usability of the WAT for both teachers and students.**
+
+**Paani Foundation Website UX Research:**
+
+*   **Key Issues:** This research identified major usability issues with the website's navigation, content hierarchy, and contact form. Users struggled to find information and connect with the foundation.
+*   **Recommendations:** You recommended a 3-level navigation system, a dedicated "Activities/Our Work" page, and improved contact form validation.
+*   **Overall, this research aimed to improve the website's usability and help the foundation better present its work and connect with users.**
+
+**iSTART Early Mobile (Personal Project):**
+
+*   **Key Insight:** You recognized the need for a mobile version of the iSTART Early student interface.
+*   **Outcome:** Your personal project created a mobile version of the interface and presented it as a case study.
+
+**Jerry Research Aide:**
+
+*   **Key Insight:** You sought to create a prototypical research tool to facilitate and manage research efforts in psychology and learning.
+
+**General Themes Across Projects:**
+
+*   **User-Centered Design:** Your work consistently focuses on understanding user needs and improving the user experience.
+*   **Prototyping and Testing:** You utilize prototyping and testing to validate designs and identify areas for improvement.
+*   **Problem-Solving:** You actively seek out usability issues and provide data-backed recommendations for improvement.
+*   **Collaboration:** You've collaborated with others, including focus groups of teachers, to gather insights and feedback.
+
+Do you have any specific questions about these projects or would like to delve deeper into any of these points?
+
+Sources: ['Nishad LEI Contributions', 'Paani Foundation UX Research and Recommendations', 'Nishad LEI Contributions', 'WAT UI Test and Results', 'WAT UI Test and Results']
+Mode: general
+Fallback: False
+GIF: None
+
+================================================================================
+Query 20: Summarize the resume of Nishad.
+Answer: Nishad Patne is a highly creative and results-driven UX Designer with over three years of experience in crafting user-friendly and engaging experiences. He excels in all aspects of UX, from research and testing to design and development. His work at SoLET Lab showcases his ability to lead end-to-end design processes and improve user engagement. Prior to this, at Deloitte, he demonstrated strong front-end development skills and expertise in web accessibility, delivering significant improvements in user experience. Nishad is also a self-starter, as demonstrated by his creation of a popular Figma plugin. He's currently pursuing a Master's in UX at Arizona State University, holds relevant certifications, and possesses a robust skill set.
+
+**Want to learn more? Ask me about:**
+
+*   His specific accomplishments in user research and usability testing.
+*   His experience with front-end development and web accessibility.
+*   His Figma plugin project.
+*   The tools and software he’s proficient in.
+*   His educational background and interests.
+
+Sources: ['Nishad Patne Resume', 'Nishad Patne Resume']
+Mode: summarization
+Fallback: False
+GIF: None
+
+================================================================================
