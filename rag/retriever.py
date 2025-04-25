@@ -7,6 +7,7 @@ from haystack_integrations.components.rankers.fastembed import FastembedRanker
 from haystack.utils import Secret
 from haystack.components.builders.prompt_builder import PromptBuilder
 from google import genai
+from google.genai import types
 import os
 import requests
 import logging
@@ -102,6 +103,15 @@ class UXChatAssistant:
         try:
             self.llm_client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
             logger.info("LLM client initialized.")
+            self.config = types.GenerateContentConfig(
+                automatic_function_calling=types.AutomaticFunctionCallingConfig(
+                    maximum_remote_calls=28,
+                    ignore_call_history=True
+                ),
+                safety_settings={
+                    'HARM_CATEGORY_HATE_SPEECH': 'BLOCK_NONE'
+                }
+            )
         except Exception as e:
             logger.error(f"Failed to initialize LLM client: {str(e)}")
             raise
@@ -299,7 +309,7 @@ class UXChatAssistant:
         for attempt in range(max_retries + 1):
             try:
                 response = self.llm_client.models.generate_content(
-                    model=model, contents=prompt)
+                    model=model, contents=prompt,config=self.config)
                 logger.info("LLM response received successfully.")
                 return response.text
                 
