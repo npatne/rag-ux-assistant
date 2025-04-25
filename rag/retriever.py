@@ -107,10 +107,7 @@ class UXChatAssistant:
                 automatic_function_calling=types.AutomaticFunctionCallingConfig(
                     maximum_remote_calls=28,
                     ignore_call_history=True
-                ),
-                safety_settings={
-                    'HARM_CATEGORY_HATE_SPEECH': 'BLOCK_NONE'
-                }
+                )
             )
         except Exception as e:
             logger.error(f"Failed to initialize LLM client: {str(e)}")

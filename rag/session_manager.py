@@ -122,10 +122,7 @@ class Session:
                         automatic_function_calling=types.AutomaticFunctionCallingConfig(
                             maximum_remote_calls=14,
                             ignore_call_history=True
-                        ),
-                        safety_settings={
-                            'HARM_CATEGORY_HATE_SPEECH': 'BLOCK_NONE'
-                        }
+                        )
                     ))
                 new_summary = response.text
 
