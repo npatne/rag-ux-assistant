@@ -236,6 +236,21 @@ class SessionManager:
                 self.sessions[session_id] = Session(
                     session_id, mode, active_case_study)
             return self.sessions[session_id]
+ 
+    def create_new_session(self,
+                       mode: str = "general",
+                       active_case_study: str | None = None) -> str:
+        """
+        Always make a brand-new Session object and return its UUID.
+        Re-uses get_or_create_session() so we don’t duplicate locking logic.
+        """
+        # Passing None forces get_or_create_session() to cook up a new uuid
+        session = self.get_or_create_session(
+            session_id=None,
+            mode=mode,
+            active_case_study=active_case_study
+        )
+        return session.session_id
 
     def _create_fallback_response(self, message):
         """Create a standardized fallback response"""

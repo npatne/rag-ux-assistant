@@ -55,6 +55,12 @@ class ChatRequest(BaseModel):
             raise ValueError(f"Mode must be one of {allowed_modes}")
         return v
 
+
+class SessionInitRequest(BaseModel):
+    mode: str = "general"
+    active_case_study: Optional[str] = None
+
+
 # Global variable for graceful shutdown
 is_shutting_down = False
 
@@ -212,6 +218,17 @@ async def chat_endpoint(request: ChatRequest, background_tasks: BackgroundTasks)
             f"Internal server error occurred. Please try again later."
         )
         return error_response
+
+@app.post("/session", tags=["session"])
+async def create_session(req: SessionInitRequest):
+    """
+    Frontend calls this once on load to obtain a fresh session_id.
+    """
+    session_id = session_manager.create_new_session(
+        mode=req.mode,
+        active_case_study=req.active_case_study
+    )
+    return {"session_id": session_id}
 
 # Custom exception handler
 @app.exception_handler(HTTPException)

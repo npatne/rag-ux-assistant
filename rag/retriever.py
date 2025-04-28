@@ -241,6 +241,7 @@ class UXChatAssistant:
                         "- Provide a comprehensive overview capturing the project's essence.",
                         "- Present the project's context, challenges, and key outcomes concisely.",
                         "- Highlight significant design decisions and their impact.",
+                        "- Can exceed to 300 words in this case.",
                         "- Structure the summary to encourage deeper exploration."
                     ])
                     context_section = (

@@ -3,7 +3,8 @@ import aiohttp
 import datetime
 import os
 
-API_URL = "http://127.0.0.1:8000/chat"
+# API_URL = "http://127.0.0.1:8000/chat"
+API_URL = "http://137.131.30.181:8000/chat" # VM url
 
 sessions = {
     "session_1": [
