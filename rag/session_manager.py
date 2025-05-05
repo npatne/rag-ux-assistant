@@ -372,7 +372,7 @@ class SessionManager:
 
     def cleanup_sessions(self):
         """Periodically clean up inactive sessions"""
-        cleanup_interval = 300  # 5 minutes
+        cleanup_interval = 60*10  # 10 minutes
 
         while self.running:
             try:
