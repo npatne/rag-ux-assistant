@@ -1,0 +1,36 @@
+Sandbox
+Chapter 1: The Sandbox Approach
+I created Project Sandbox as a strategic way to demonstrate design engineering versatility through focused mini-projects rather than one massive undertaking. This approach allows me to tackle different problem spaces efficiently while building a diverse portfolio that showcases adaptability—a crucial skill for design engineers who need to move fluidly between consumer products, internal tools, and developer experiences.
+The three projects represent different scales and audiences, each teaching me something unique about user needs and technical constraints.
+Chapter 2: Don't Panic - Job Scam Prevention
+The job scam prevention resource emerged from witnessing the increasing sophistication of employment scams targeting vulnerable job seekers. I co-created this web resource to provide practical prevention strategies and recovery guidance.
+My approach focused on interviews and deep internet search for user research methods to understand how people fall victim to these scams and what information would actually help them. The challenge was presenting complex safety information in an accessible way without creating fear or discouraging legitimate job searching.
+User inputs specific design and development decisions that shaped the final product. The live website serves as both a resource and a demonstration of my ability to tackle socially impactful design challenges.
+Chapter 3: RTMT - Academic Text Management
+The Reading Text Management Tool addressed productivity pain points I observed among academic researchers struggling with large volumes of text. This project was particularly interesting because academic users have very specific workflow requirements and constraints.
+I designed the complete UI system focusing on linguistic researchers key user flows that would streamline text organization and annotation processes. The challenge was balancing feature richness with interface simplicity—academic tools often become overcomplicated, reducing their actual utility.
+user validation approach and how feedback shaped the final prototype. This project taught me about designing for specialized user groups with domain-specific needs.
+Chapter 4: Figma Tooltip Plugin Success
+The Figma plugin represents my most successful mini-project, currently serving over 6,000 users. I identified the repetitive nature of tooltip creation in design workflows and built an automated solution through Figma's plugin API.
+The technical challenge was working within Figma's plugin constraints while creating an intuitive form-based interface. Thia specific development decisions and how I optimized for both functionality and user experience within the plugin environment.
+The community adoption exceeded my expectations, teaching me about developer tool distribution and maintaining products for active user bases. how I handle user feedback and iterate based on community needs.
+Chapter 5: Lessons and Future Direction
+These three projects taught me that successful design engineering often comes from identifying specific pain points and delivering focused solutions rather than building comprehensive platforms. Each project required different technical approaches but similar user-centered thinking.
+The sandbox format allows for continued expansion as I encounter new problems worth solving. future project ideas or directions for this collection.
+This approach directly supports my career goals in design engineering by demonstrating practical problem-solving across different domains while building a reputation for shipping useful solutions.
+Appendix: Key Facts
+Three distinct projects: job scam prevention, academic tool UI, and Figma plugin
+Figma plugin achieved 6,000+ active users and community adoption
+Projects span consumer safety, academic productivity, and developer tooling
+Demonstrates rapid prototyping and cross-domain problem solving
+Live implementations available for portfolio review
+FAQs
+Q: How do you prioritize which mini-projects to pursue? 
+Q: What's your process for validating ideas before building?
+Q: How do you maintain multiple projects simultaneously? 
+Follow-ups
+Tell me more about your user research approach for the job scam prevention resource
+Walk me through the technical architecture of your Figma plugin
+How did you approach UI design constraints for the academic text management tool
+What metrics do you track for the Figma plugin's success
+How does this sandbox approach influence your approach to larger projects

@@ -1,0 +1,55 @@
+#Jerry the Jr Research AIDE
+
+##Chapter 1: Context & Goals
+
+The Jerry project emerged from a unique convergence of academic experience and real-world observation. During my spring 2023 master's coursework, I conducted interviews with burrowing owl researchers at ASU Polytechnic Campus, tasked with finding digital solutions for their research challenges. While that initial class project was somewhat rushed and improperly structured, it planted a crucial seed: researchers desperately needed better digital tools.
+This insight was reinforced when I began volunteering at ASU's SOLET LAB, a research institute focused on educational technology and learning science. Working there exposed me to the daily friction researchers faced—scattered data, fragmented workflows, and the constant juggling of multiple platforms just to coordinate a single study. The lab dealt with learning materials, educational games, and research administration platforms, and I could see firsthand how poor UX hindered their work.
+My goal became clear: design a comprehensive research management platform that could eliminate these pain points and streamline the entire research lifecycle from study conception to completion.
+
+##Chapter 2: Approach & Key Decisions
+
+Before diving into design, I spent May and June 2023 deeply studying design systems from major companies—Google's Material Design, Apple's Human Interface Guidelines, Salesforce Lightning, and IBM's Carbon. This wasn't just theoretical learning; I wanted to understand how mature companies structure and implement design systems across massive product portfolios.
+When my collaborator approached me in July for a project partnership, we knew we wanted to tackle something substantial. The research assistant interface idea felt perfect—it combined my newfound design system knowledge with the real problem I'd observed in academic settings.
+Our key decision was to approach this as a true enterprise application, not just another dashboard. We committed to creating a comprehensive information architecture that could handle complex workflows: user onboarding, study creation, material management, participant coordination, collaborative features, and task scheduling. We also decided to leverage Material Design 3 principles while creating our own scaled design system, treating this as both a design exercise and a systems thinking challenge.
+
+##Chapter 3: Challenges & Solutions
+
+The biggest challenge was scope management. Initially, we envisioned a four-phase project covering everything from study planning to analytics and integrations. We quickly realized the enormity of this undertaking and made the strategic decision to focus deeply on Phase 1: the core UX framework, collaboration interfaces, and study scheduling features.
+The information architecture proved particularly complex. Research workflows aren't linear—they involve multiple user types (principal investigators, research assistants, participants), varying permission levels, and parallel processes that need to stay synchronized. We solved this by creating detailed user flow diagrams that mapped every possible pathway through the application, ensuring we accounted for edge cases and role-based access scenarios.
+Another significant challenge was balancing feature richness with usability. Researchers needed powerful tools, but they also needed those tools to be intuitive. We addressed this through progressive disclosure—exposing basic functionality first, with advanced features accessible but not overwhelming. The bulk CSV import feature exemplifies this approach: simple drag-and-drop for basic use cases, with sophisticated grouping and filtering available when needed.
+
+##Chapter 4: Outcomes & Impact
+
+While we ultimately shelved the project after Phase 1 to pursue other opportunities, the work we completed established a solid foundation for a comprehensive research management platform. We successfully designed and prototyped 10 core features, created a scalable design system, and validated our approach through <FILL_ME> researcher interviews.
+The project became a significant portfolio piece, demonstrating my ability to tackle enterprise-level design challenges and work within complex information architectures. More importantly, it taught me how design decisions cascade through large systems and the importance of systematic thinking in UX design.
+The experience also validated my approach to design system development—the component library we created significantly accelerated our prototyping speed and maintained consistency across all interfaces.
+
+##Chapter 5: Reflections & Next Steps
+
+This project marked a pivotal moment in my understanding of enterprise UX design. Working on Jerry taught me that complex applications require more than good visual design—they need systematic thinking, careful information architecture, and deep empathy for user workflows.
+If I were to revisit this project, I would place even greater emphasis on user testing throughout the design process. While we conducted initial research interviews, more iterative feedback would have strengthened our design decisions. I'd also explore more sophisticated prototyping techniques to better communicate complex interactions to stakeholders.
+The project reinforced my interest in design systems and systematic approaches to UX, which directly influenced my career trajectory toward Design Engineering roles where these skills are essential.
+
+##Appendix: Key Facts
+
+6-week timeline (July-August 2023) for Phase 1 completion
+Team of 2 UX designers working collaboratively
+10 core features designed and prototyped
+Material Design 3 implementation with custom component library
+Information architecture supporting multiple user roles and permissions
+Desktop/web application targeting academic researchers
+Personal project allowing complete creative control and learning focus
+
+##FAQs
+
+Q: Why was the project shelved after Phase 1? A: <FILL_ME> - both team members moved on to other opportunities, but the phase 1 work provided substantial learning and portfolio value.
+Q: How did you validate your design decisions? A: Through initial researcher interviews at ASU and ongoing feedback from SOLET LAB colleagues, though more formal user testing would have strengthened the process.
+Q: What would you do differently? A: Implement more structured user testing cycles and explore technical feasibility constraints earlier in the design process.
+
+##Follow-ups
+
+Walk me through the information architecture decisions for managing different user roles and permissions.
+How did working with Material Design 3 influence your approach to component design?
+What specific insights from the researcher interviews shaped your core feature priorities?
+How did this project influence your interest in Design Engineering roles?
+What lessons from Jerry have you applied to subsequent projects?

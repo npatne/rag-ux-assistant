@@ -1,0 +1,56 @@
+#Paani Foundation 
+
+##Chapter 1: Context & Goals
+
+When I started my Master's in UX at ASU, the Paani Foundation project became my introduction to real-world UX research. This wasn't just an academic exercise—I reached out to Paani Foundation on my own initiative, a drought-relief nonprofit in India, because I wanted to work on something meaningful while learning the fundamentals of user experience design.
+The foundation's website served as their primary digital touchpoint for raising awareness about drought conditions in India, showcasing their work, and connecting with potential volunteers and supporters. However, initial observations suggested users were struggling to navigate the site effectively and find the information they needed.
+My goal was ambitious for a first project: conduct a complete UX analysis from research through recommendations, following industry-standard methodologies while working independently to deliver actionable insights.
+
+##Chapter 2: Approach & Key Decisions
+
+I chose a multi-method research approach that would give me both breadth and depth of understanding. Starting with heuristic evaluation provided a structured foundation—I systematically evaluated each webpage against Nielsen's 10 usability principles, identifying and rating 20 issues across four severity levels. This academic framework gave me confidence in my methodology while establishing credibility with stakeholders.
+The decision to combine quantitative surveys with qualitative usability testing proved crucial. The online survey captured 19 responses and revealed three distinct user personas, primarily from the Indian IT industry with specific goals around learning about the foundation's work and finding ways to contribute. These personas became the foundation for creating realistic testing scenarios.
+For the usability testing, I deliberately kept tasks open-ended. Rather than leading users down predetermined paths, I wanted to observe their natural interaction patterns. This decision revealed unexpected behaviors, like users gravitating toward the first available option regardless of task requirements—a insight that wouldn't have emerged from more structured testing.
+
+##Chapter 3: Challenges & Solutions
+
+The biggest challenge was validating my initial assumptions about usability problems. The heuristic evaluation identified 20 potential issues, but which ones actually mattered to real users? The usability testing provided that validation—8 out of 20 issues were confirmed through user behavior and feedback.
+Technical constraints also presented challenges. Conducting remote usability testing via Zoom required careful session management and recording protocols. I had to balance creating a comfortable environment for participants while gathering rigorous data about task completion rates, time-to-completion, and qualitative feedback.
+The most revealing challenge came during data analysis. Users consistently struggled with tasks that seemed straightforward to me as a designer. Finding press articles had only a 20% success rate, while locating beneficiary details achieved just 40% success. These stark numbers forced me to confront how my assumptions about intuitive navigation differed from actual user mental models.
+Navigation emerged as the root cause of nearly half the identified problems. Users expected certain elements—like "Contact Us"—in standard locations, but the current single-level navigation system buried critical links in the footer where users rarely looked.
+
+##Chapter 4: Outcomes & Impact
+
+The research validated my methodological approach while delivering concrete value to Paani Foundation. By prioritizing the top three issues—navigation architecture, content organization, and contact accessibility—I created high-fidelity prototypes that directly addressed the most impactful problems.
+The stakeholder presentation went better than expected. Paani Foundation leadership appreciated the empirical approach and wrote a strong LinkedIn recommendation highlighting the thoroughness of the research methodology. This external validation proved crucial for my confidence as a UX practitioner.
+Academically, the project earned me a 4.33 out of 4.0 grade and led to a teaching assistant position for the same course. Over two semesters, I graded assignments for over 50 students, applying the same attention to detail and constructive feedback that characterized my research approach. The professor's subsequent LinkedIn recommendation reinforced my reputation for methodical, helpful analysis.
+The quantitative results told a clear story: while users could complete activity-related tasks with 100% success (though taking significant time), they failed dramatically at finding press coverage and beneficiary details. These metrics provided unambiguous evidence for design priorities.
+
+##Chapter 5: Reflections & Next Steps
+
+Looking back, this project established patterns that define my approach to UX work: systematic methodology, empirical validation, and stakeholder collaboration. The experience taught me that good research isn't just about identifying problems—it's about prioritizing solutions based on user impact and organizational feasibility.
+One significant shortcoming was my inability to test the implemented recommendations. I delivered prototypes and recommendations, but never had the opportunity to validate whether my proposed solutions actually improved user task completion rates. This limitation taught me the importance of building measurement and iteration into project scopes from the beginning.
+The project also highlighted the value of academic rigor in professional practice. The detailed documentation and systematic approach that earned high grades also built stakeholder confidence and created a foundation for ongoing collaboration.
+If I were to approach this project again, I'd push for a pilot implementation of at least one recommendation to close the research-to-impact loop. The theoretical validation was strong, but real-world performance data would have made the case study even more compelling.
+
+## Appendix: Key Facts
+First comprehensive UX project combining heuristic evaluation, surveys, and usability testing
+19 survey responses yielded 3 distinct user personas, primarily from Indian IT industry
+5 moderated usability sessions revealed 11 total issues, validating 8 from initial heuristic evaluation
+Navigation problems caused 5 of 11 discovered usability issues
+Task success rates: 100% for activities, 40% for beneficiaries, 20% for press articles
+Academic achievement: 4.33/4.0 grade leading to 2-semester TA position
+Stakeholder recognition via LinkedIn recommendations from both foundation and professor
+
+##FAQs
+
+Q: How did you ensure research validity with only 5 usability testing participants? A: I followed Jakob Nielsen's established methodology where 5 users typically uncover 85% of usability problems. The combination with heuristic evaluation and survey data provided triangulation, and 8 out of 20 initially identified issues were validated through actual user behavior.
+Q: What was your biggest learning from this first major UX project? A: The gap between designer assumptions and user mental models. Issues that seemed minor during heuristic evaluation proved critical to users, while some theoretical problems didn't manifest in real usage. This taught me to always validate design assumptions with actual user behavior.
+
+##Follow-ups
+
+Walk me through your specific methodology for conducting remote usability testing via Zoom
+How did you prioritize which of the 11 discovered issues to address in your recommendations?
+Describe the process of translating user personas into realistic testing scenarios
+What specific feedback did you provide as a TA that students found most valuable?
+How would you design a follow-up study to test your implemented recommendations?

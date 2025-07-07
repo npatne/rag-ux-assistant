@@ -1,0 +1,81 @@
+iSTART Early
+Chapter 1: Context, Technology, and The Tripartite Problem
+The iSTART Early project at Arizona State University's Learning Engineering Institute (LEI) was a high-stakes initiative to create a next-generation educational platform. The technological cornerstone of the platform is Natural Language Processing (NLP). This specific AI discipline allows the system to perform sophisticated analysis of student-generated text. For example, when a student writes a summary of a passage, the NLP backend can identify key concepts, check for the use of specific reading strategies (like self-explanation or bridging), and provide targeted, automated feedback—a task that would otherwise require a human tutor.
+Despite this powerful backend, the user-facing application was critically flawed upon my arrival. The core problem was not a single issue but a tripartite failure that prevented the platform from being a viable product.
+The Foundational Void: The Missing Teacher Portal: This was the most immediate and critical business blocker. The platform was designed for classroom use, yet it offered no tools for the primary user in that context: the teacher. There was no mechanism to create a class, enroll students, assign specific lessons or games, view student work, or track progress over time. It was an engine without a dashboard or steering wheel, rendering it unusable for its intended purpose and impossible to deploy for the formal research studies that are LEI's lifeblood.
+The Cognitive Burden: The Disjointed Student Hub: A student-facing portal existed as a landing zone, but it was a labyrinth of inconsistent design. Built ad-hoc over time, it suffered from a chaotic Information Architecture. For instance, finding a newly assigned lesson might require navigating through three non-intuitive sub-menus. The UI was a patchwork of different design languages—buttons in one section looked and behaved differently from buttons in another. This visual dissonance and navigational complexity placed a high cognitive load on its young users (ages 8-10), directly conflicting with the goal of creating a frictionless learning environment.
+The Broken Loop: The Isolated Learning Modules: The most engaging parts of the platform—the interactive learning games and lessons—were functionally siloed. A student could spend ten minutes playing a game and achieve a high score, but this achievement was trapped within the module itself. The main Student Hub had no awareness of this event. The "iBucks" currency earned in the game wouldn't appear in the student's total balance, and the completed assignment wouldn't be marked as "done" on their dashboard. This broken feedback loop completely undermined the gamification strategy, demotivating students and creating a frustrating, disjointed experience.
+My mandate was to solve these three interconnected problems, transforming a collection of disparate parts into a single, cohesive, and scalable learning ecosystem.
+Chapter 2: My Role and Deep Cross-Functional Integration
+As the UX Lead, I was the primary advocate for the user and the architect of the experience. This role was deeply collaborative and required me to act as a translator, strategist, and technical partner to a diverse team.
+Collaboration with Principal Investigators (PIs) & Researchers: My interaction with the PIs was a continuous cycle of translation and validation. They would articulate pedagogical needs, such as "We need to capture a student's self-explanation before and after they receive a strategy hint." My job was to translate this academic requirement into a user flow. Key Decision: I decided early on to use low-fidelity, interactive wireframes as our primary communication tool in these meetings. Instead of static images, I would present a clickable prototype that walked them through the proposed flow. This allowed them to "feel" the experience from a student's perspective, leading to much richer, more specific feedback and ensuring the final design would capture clean, valid data for their research.
+Partnership with the Product Owner: My relationship with the PO was a strategic partnership focused on execution. We co-owned the product backlog in Asana. For every epic, I was responsible for creating the detailed UX user stories. Key Decision: We implemented a "UX Ready" status in our workflow. A feature could not be moved into the "Ready for Development" column until I had attached final, approved Figma links and detailed UX acceptance criteria to the ticket. This simple process change eliminated ambiguity and drastically reduced the amount of rework needed post-development.
+Synergy with Developers: I treated the engineering team as a key user group for my design deliverables. Key Decision: After observing developers manually inspecting my Figma files to get CSS values, I invested time in setting up the automated Token Studio pipeline. This was a strategic decision to trade a few days of my upfront effort for months of saved developer time down the line. For the Storyline integration, I created a shared technical document outlining the specific postMessage API, detailing every event type, its expected payload, and example code snippets. This became the "bible" for integrating any new module and ensured consistency.
+Mentorship and Collaboration with Design Colleagues: My goal was to elevate the entire team's design maturity. Key Decision: I established a weekly, optional "UX Office Hours" session. This was a no-agenda meeting where any designer (or developer, or the PO) could drop in to ask questions, brainstorm a problem, or get feedback on early-stage work. This informal setting fostered a culture of open collaboration and continuous learning, moving us away from siloed work and towards a more integrated team mindset.
+Chapter 3: Detailed Breakdown of Strategic Contributions
+My work was executed across four parallel workstreams, each with its own set of challenges and solutions.
+Pillar 1: Teacher Portal Creation (A Zero-to-One Initiative)
+Process & Execution: This was a pure product design initiative.
+Research & Synthesis: I analyzed over 10 existing LMS and educational platforms, creating a feature matrix to identify common patterns and table-stakes functionality. This research directly informed the core feature set: Dashboard, Roster, Assignments, and Analytics.
+Architecture & Flows: I designed the complete Information Architecture, making a key decision to use a flat navigation structure rather than a deeply nested one, prioritizing ease of access for time-poor teachers. I mapped out every user flow, from the multi-step "Create a New Assignment" flow to the simpler "Edit a Student's Name" flow.
+Iterative Prototyping: I built a comprehensive mid-fidelity prototype in Figma. A key decision here was to use realistic but placeholder data (e.g., fake student names, plausible assignment titles). This made the prototype feel much more real during stakeholder reviews and helped us identify awkward layouts or data truncation issues early on.
+Final UI & Handoff: After multiple rounds of feedback, I applied the final high-fidelity UI from our design system and prepared a detailed handoff file for the developers, which included component specifications and annotations for complex interactions.
+
+
+
+
+Pillar 2: Student Hub Enhancement (The Gamified Portal)
+Process & Execution:
+Audit & Prioritization: My heuristic evaluation produced a prioritized list of usability issues, which I logged in Asana. I worked with the PO to triage these, focusing on high-impact, low-effort fixes first (like clarifying button labels) while scheduling larger redesigns (like the dashboard).
+Dashboard Redesign: The old dashboard was a static list of links. The new design was dynamic and personalized. Key Decision: I designed the dashboard around the concept of "What do I need to do now?". The top of the page was dedicated to a prominent "Assignments Due" section, making the student's primary task unmissable.
+
+
+
+
+Pillar 3: Interactive Learning Module Development (A Major Design & Dev Effort)
+Process & Execution:
+Design & Development: For each of the 10+ modules, I was both the designer and developer. This dual role was incredibly efficient. In Storyline, I could quickly prototype an interaction, test it, and if it felt clunky, immediately jump back to Figma to redesign the UI without a formal handoff process.
+The JavaScript Bridge: This was the technical lynchpin. Key Decision: I created a single, reusable JavaScript file (storyline-bridge.js) that contained all the postMessage functions. For each new Storyline module, I would simply include this file and call the relevant functions (e.g., Bridge.addCurrency(50), Bridge.markComplete('game-starsub')). This modular approach made development much faster and less error-prone than writing custom JS for every single module.
+
+
+
+
+Pillar 4: Design Practice & Systems Engineering
+Process & Execution:
+Design System & Automation: The key decision to use Token Studio was transformative. It elevated our design system from a "style guide" (a document to be referenced) to a "system" (a utility that directly feeds the production codebase). This created a single source of truth and eliminated design drift.
+UX Copy Guide: I created this guide after noticing that different modules used different terms for the same action (e.g., "Submit," "Finish," "I'm Done"). The guide, created in our team's Confluence space, included a full glossary of approved terms, ensuring a consistent and professional voice across the entire platform.
+
+
+
+
+Chapter 4: Deep Dive - The Mobile App Exploration
+This self-initiated project was a comprehensive exploration into the future of the iSTART brand and a personal exercise in mastering mobile-first design and creative AI tools.
+Conceptual Foundation & Technology: The project's hypothesis was that the next frontier for EdTech is not just information delivery, but emotional connection and personalized companionship. The shift from the web's NLP to a mobile-first Generative Conversational AI was deliberate. The goal was to create an experience where the AI, Matty, could not only check for correctness but also offer encouragement ("That was a tough one, but you figured it out!") or spark curiosity ("You did great on that lesson about bridging! Want to try a game that uses the same skill?").
+Creative & Technical Process:
+AI as a Creative Partner: My use of DALL-E was a structured process. I started with broad prompts to generate a wide variety of character styles for Matty. I then selected the top 3 styles and began iterating with more specific prompts ("A friendly robot in the style of Pixar, holding a book, detailed vector art"). This allowed me to rapidly explore and refine the visual identity.
+High-Fidelity Craftsmanship: I spent significant time perfecting the mobile UX. Key Decision: I designed a custom "thumb-friendly" tab bar where the most common action ("Talk to Matty") was a large, central button, easily accessible. I prototyped custom animated screen transitions in Figma to make the app feel fluid and responsive, paying close attention to the small details that define a premium mobile experience.
+
+
+Chapter 5: Expanded FAQ & Decision Rationale
+Q: Why was building the Teacher Portal prioritized as the first major task?
+A: It was a strategic decision based on unblocking the entire project. Without the Teacher Portal, we could not conduct pilot studies in classrooms. Without pilot studies, we couldn't gather the real-world data needed to validate the platform's effectiveness, secure further grant funding, or publish research. The portal was the critical key that unlocked the entire value chain for the institute.
+
+
+Q: You mentioned a "UX Ready" status in Asana. Can you elaborate on why that was necessary?
+A: Before implementing this, developers would often start work based on early-stage wireframes or verbal conversations. This led to significant rework when final designs were delivered. The "UX Ready" status acted as a formal quality gate. It created a clear contract: development would only begin when a design was fully specified and approved. This saved countless hours of engineering time and reduced friction between the design and development teams.
+
+
+Q: What was the rationale for choosing the 'Avataaars' library specifically?
+A: I evaluated three different programmatic avatar libraries. I chose 'Avataaars' for three reasons: 1) Lightweight: It had a very small file size, which was important for our platform's performance. 2) Art Style: Its friendly, clean, and slightly quirky style was a perfect match for our target audience of young children. 3) Excellent Documentation: The library was well-documented, which I knew would make it easy for our developers to implement quickly and correctly.
+
+
+Q: How did you measure the success of the Student Hub redesign if you didn't have access to formal research metrics?
+A: Success was measured through a combination of qualitative feedback and proxy metrics. We conducted informal usability tests with a small group of students, and we observed a clear reduction in task completion time and errors for key tasks like finding an assignment. The most powerful feedback was qualitative: in testing sessions, we heard students say things like "Oh, I see my homework right there!"—comments we never heard with the old design. We also tracked internal metrics like the click-through rate on the new "Assignments Due" card, which was significantly higher than the old navigation link.
+
+
+Q: Why did you choose to develop the learning modules in Storyline instead of having the main development team build them in Angular?
+A: This was a strategic decision based on speed and specialized tooling. Articulate Storyline is purpose-built for creating complex, timeline-based interactive learning content. Building the same highly animated, multi-state games directly in Angular would have been significantly more time-consuming for our web development team. Using Storyline allowed me, as a specialist, to rapidly design and develop the modules in parallel, while the core dev team focused on the platform's infrastructure. The JavaScript bridge was the solution that allowed us to get the best of both worlds.
+
+
+Q: In your mobile concept, how did you envision handling potential issues with a generative AI, like providing incorrect information to a child?
+A: This was a key consideration. The vision included a "scaffolded AI" model. Matty's responses would not be fully open-ended initially. They would be drawn from a large but curated library of pre-approved phrases, hints, and explanations tied to the specific lesson content. More advanced, truly generative responses would be limited to lower-stakes interactions, like encouragement or conversational chatter. Any direct answer to a quiz question would be disabled, with the AI trained to guide the student to find the answer themselves, rather than providing it directly. Safety and pedagogical soundness would be the top priority.

@@ -1,0 +1,60 @@
+RAG AI Portfolio
+
+Project Title: AI-Powered Portfolio Chatbot
+1. Project Context & Core Philosophy
+This project was born from a simple observation: a traditional portfolio is a one-way communication channel. It forces every visitor—whether a recruiter, a hiring manager, or a product leader—down the same linear path. My goal was to leverage modern AI to flip this dynamic. I wanted to create a conversational interface that would allow each visitor to explore my work according to their own interests and priorities, effectively personalizing the portfolio experience for every user. This endeavor was also a personal mandate to gain deep, practical experience with the AI technologies that are fundamentally reshaping the design and engineering landscape.
+2. The Development Journey: A Tale of Two Architectures
+The evolution of this project is central to its story, highlighting critical lessons in strategy, scalability, and pragmatic engineering.
+2.1. Initial Approach: The Self-Hosted Ambition
+The Plan: My initial strategy was to download, configure, and deploy a Llama 3.2 model on a dedicated Oracle Cloud compute instance.
+The Rationale: This approach was driven by a desire for maximum control and a deep, hands-on understanding of the full MLOps lifecycle.
+The Reality Check (Challenges Encountered):
+Crippling Performance: The model was computationally massive. Even on a dedicated instance, inference times were unacceptably slow, which would have resulted in a frustrating user experience.
+Resource Exhaustion: The model's memory and CPU requirements quickly overwhelmed the resources available on the "free" cloud tier, leading to application instability and crashes.
+The "Free Tier" Fallacy: I learned firsthand that free infrastructure is not without cost. To maintain access to Oracle's free resources, certain minimum usage criteria must be met. My inefficient, resource-hungry application was at risk of being throttled or disabled, creating a direct conflict between my architecture and the platform's constraints.
+
+
+2.2. The Strategic Pivot: The API-Driven RAG Model
+The Decision: I made the conscious decision to abandon the self-hosted approach. This was not an admission of failure, but a strategic choice to prioritize the end-user experience and long-term viability.
+The Rationale: A successful product must be scalable, reliable, and efficient. By leveraging specialized, managed services (an LLM API and a dedicated vector database), I could deliver a vastly superior experience faster and more reliably. This reflects a mature engineering trade-off: focusing resources on the unique value proposition (the conversational experience) rather than on re-solving infrastructure problems.
+The New Architecture: I designed a classic, robust RAG pipeline orchestrated by Haystack, using the Gemini Pro API for its powerful and efficient generation capabilities, and Qdrant Cloud for its high-performance vector retrieval.
+3. Final Technical Architecture & Design Decisions
+The live version of the chatbot operates on a carefully selected stack, with each component chosen for a specific reason.
+Large Language Model (LLM): Gemini Pro (via Google AI API)
+Reasoning: Chosen for its optimal balance of state-of-the-art performance, cost-effective API pricing, and seamless integration. It provides world-class language understanding without the immense overhead of self-hosting.
+
+
+Vector Database: Qdrant (Cloud Tier)
+Reasoning: Selected for its high-performance vector search, open-source foundation, and native compatibility with the Haystack framework. It is purpose-built for the kind of fast, accurate document retrieval that a RAG system depends on.
+
+
+Orchestration Framework: Haystack
+Reasoning: Used to build and connect the components of the RAG pipeline (retriever, ranker, generator). Its modularity was essential for rapid prototyping and made the pivot from one architecture to another significantly easier.
+
+
+Infrastructure: Oracle Cloud (Free Tier)
+Reasoning: The application backend is deployed as a containerized application on Oracle Cloud. It is carefully configured to manage resources efficiently, staying within the free tier's limits while being architected to handle up to 30 concurrent user requests.
+
+
+Data Sources: The chatbot's knowledge base is built exclusively from the detailed Project Companion documents for each of my portfolio projects, including this one. The other documents (Paani Foundation, WAT, iSTART, etc.) provide the rich, factual content that the chatbot retrieves to answer user questions.
+4. Data Curation & Ensuring Factual Accuracy
+To ensure the chatbot is a reliable and accurate representative of my work, I implemented a rigorous data curation and retrieval process.
+Source of Truth: The chatbot's knowledge is strictly limited to the content within my detailed Project Companion documents. It cannot access the open internet, which prevents it from introducing outside information.
+Strategic Chunking: Before being stored in the Qdrant database, the documents are broken down into smaller, semantically coherent chunks. I use a strategy of chunking by section headers and then by paragraphs, with a token overlap of 50 tokens to ensure contextual continuity between chunks.
+Fact-Based Prompt Engineering: The system prompt sent to the Gemini LLM is carefully engineered. It explicitly instructs the model to answer questions only based on the provided context retrieved from the database and to state when it does not have the information, rather than fabricating an answer.
+Continuous Auditing: I periodically review conversation logs and perform tests with common questions to validate the accuracy of the responses and identify areas where the source documents may need refinement.
+5. Q&A / Potential User Queries
+Q: Why did you pivot from a self-hosted Llama model to the Gemini API?
+A: The self-hosted model was inefficient, slow, and unscalable within the practical constraints of affordable cloud infrastructure. The pivot to the Gemini API was a strategic engineering decision to prioritize what matters most in a product: user experience (speed and reliability), maintainability, and scalability. It allowed me to deliver a better, more robust product far more efficiently.
+
+
+Q: What specific technical challenges did you face during the RAG implementation?
+A: Beyond the major architectural pivot, a key challenge was optimizing the retrieval process. I had to fine-tune the data chunking strategy and the number of documents retrieved (the top_k parameter in Haystack) to find the sweet spot. Retrieving too few documents might miss the correct answer, while retrieving too many could introduce noise and confuse the LLM. It required iterative testing to balance precision and recall for the best possible answer quality.
+
+
+Q: How does this project demonstrate your skills as a UX Engineer?
+A: This project is the culmination of my UX Engineering skill set. It began with a UX-driven goal (improve the portfolio experience), involved deep technical architecture and hands-on coding (Python, Haystack, API integration), required strategic problem-solving (the pivot), and ended with a deployed, functional product. It shows I can own a project from a user-centric concept all the way through to technical implementation and maintenance.
+
+
+Q: How did you structure your learning process for these AI concepts?
+A: I used a "learn-by-doing" methodology. I would use ChatGPT to explore a theoretical concept, like the role of a vector database. Then, I would immediately try to implement that concept in code. When I hit an error or a wall, I would go back to research the specific problem. This tight feedback loop between theory and hands-on application was far more effective for me than passive learning.

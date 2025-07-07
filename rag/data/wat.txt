@@ -1,0 +1,237 @@
+#Writing Analytics Tool
+
+##Project: Writing Analytics Tool (WAT) - Detailed Overview
+
+###Chapter 1: Introduction & Project Context
+
+Project Name: Writing Analytics Tool (WAT)
+My Role: Sole UX Designer
+Timeline: Joined Learning Engineering Institute (LEI) in May 2023; key design system work Summer/Fall 2023; major feature redesign post-July 2024 focus groups.
+Organization: Learning Engineering Institute (LEI)
+
+####1.1. Official WAT Definition (as defined by LEI):
+The Writing Analytics Tool (WAT) is an open-source platform designed to support students, teachers, and researchers. Built using natural language processing (NLP), WAT provides descriptive writing analytics on student writing for persuasive and source-based essays. We built WAT to address a key challenge: how to provide meaningful, scalable feedback that supports both teaching and learning while also enabling empirical research on writing development.
+WAT serves multiple audiences:
+For students: It offers personalized, interpretable feedback to guide revision.
+For teachers: It facilitates writing and revising practice with immediate feedback and is free.
+For researchers: It enables the extraction of linguistic features to explore and test new theoretical models of writing development.
+
+####1.2. Initial State & Core Problem:
+I was onboarded when LEI had an MVP of the WAT application. This MVP was developed by engineers and, while functional at a basic NLP level, presented significant usability challenges:
+Rudimentary and inconsistent UI.
+Lack of intuitive user flows.
+Difficulty for users to interpret complex analytical feedback.
+No integrated rubric system.
+No scalable design system for future development.
+The primary goal was to transform this MVP into a user-centric, scalable, and effective platform that could genuinely support teaching, learning, and research, with a near-term goal of preparing for beta testing in schools.
+
+###Chapter 2: My Approach & Key Responsibilities
+
+####2.1. Overall Approach:
+My approach was centered on iterative, user-focused design, balancing the sophisticated analytical capabilities of WAT with the practical needs of teachers and students. This involved:
+Understanding the Domain: Deeply learning about writing analytics, NLP outputs, and educational contexts.
+Establishing Foundations: Prioritizing a design system for consistency and scalability.
+User-Centered Design: Actively seeking user input through internal testing and external focus groups to drive design decisions.
+Iterative Prototyping: Creating and refining interactive prototypes in Figma for all key workflows.
+Cross-Functional Collaboration: Maintaining constant communication with engineering, data science, and research teams.
+Pragmatic Solutions: Focusing on designs that were not only user-friendly but also technically feasible and aligned with project goals.
+
+####2.2. Key Responsibilities as Sole UX Designer:
+End-to-end UX/UI design for the entire WAT application.
+Development and implementation of the WAT design system, including CSS coding for core elements.
+Planning and co-facilitating user research (internal usability tests, external focus groups).
+Qualitative data analysis from research activities.
+Systematic QA testing, bug reporting, and enhancement tracking (documented 50+ items).
+Creation of all design deliverables: wireframes, mockups, interactive prototypes, design specifications.
+Contribution to strategic product discussions, especially regarding user experience and feature prioritization.
+
+###Chapter 3: Key Design Decisions, Challenges & Solutions
+
+####3.1. Initial Onboarding & Design System Implementation (Summer/Fall 2023)
+Context: The existing MVP had a developer-created UI with no design consistency. My first major task was to establish a unified design language.
+Decision 1: Migrate to Figma & Create a Design System.
+Rationale: To homogenize the UI, support scalability, make my design process efficient, and provide developers with clear, reusable components.
+Implementation: I migrated all existing (rudimentary) designs from XD to Figma. I developed a new design system based on Google Material Design principles (same color palette organization, nomenclature) because the development team was already using Material components. I coded foundational CSS for this system.
+Impact: This immediately improved visual consistency, streamlined my workflow for new features, and made developer handoff smoother.
+Decision 2: Standardize UX Copy & Implement Essential UI Patterns.
+Rationale: The application lacked consistent communication and basic usability safeguards.
+Implementation: Revised UX copy elements for clarity and consistency. Implemented mandatory notifications for save/delete/edit actions, ubiquitous tooltips for clarity, and navigation guards to prevent accidental data loss (critical for an essay/grading tool).
+Impact: Improved overall usability and reduced user error.
+
+
+####3.2. Shift in Focus & User Research (Pre-July 2024 & Focus Groups)
+Context: Initially, LEI's focus was on creating products to validate academic research, leading to work across multiple products. WAT was one of them. The focus then shifted towards preparing WAT for broader beta testing in schools.
+Internal Usability Testing:
+Purpose: To get initial feedback on navigation and comprehension of results from an internal audience (LEI Research team) before wider testing.
+Method: Self-paced usability testing. I noted task completion times informally but the primary goal was to identify critical task completion ability and interpretation of results, not benchmark specific UX metrics, aligning with LEI's focus on acceptance and perceived usability.
+External Focus Groups (ASU Teachers - July 2024): This was a pivotal moment.
+Purpose: To gauge adaptability, user acceptance, and gather qualitative feedback on the existing WAT design, particularly feedback interpretation.
+Key Findings & Design Recommendations:
+Finding: Metrics need clarity and examples (redundancy, unclear definitions).
+Recommendation: Streamline metrics, consolidate overlapping categories (e.g., combine Information Density with Development of Ideas).
+Finding: Customization is essential (align metrics with course goals).
+Recommendation: Enable instructors to set target metric values and choose which metrics to display for specific assignments.
+Finding: Workload concerns (standalone WAT use could increase workload).
+Recommendation: Integrate WAT with LMS platforms (e.g., Canvas) to streamline workflow. (This influenced strategic discussions where I now participate).
+Finding: Interface improvements needed (simplify to reduce cognitive load).
+Recommendation: Redesign UI with intuitive color schemes, collapsible panels, and clearer metric descriptions.
+Impact of Focus Groups: The feedback was an "eye-opener." While teachers acknowledged the UI aesthetics and theoretical benefits, they highlighted critical usability gaps. This led to a major shift in my design priorities towards:
+Rubric creation/management.
+Revised analytics feedback view.
+Student performance pages.
+
+####3.3. Redesigning Core Features (Post-Focus Group)
+
+3.3.1. Rubric Creation & Management System
+Challenge: Teachers wanted a flexible, intuitive way to create, save, reuse, and evaluate with rubrics, integrated seamlessly into WAT.
+Solution - Multi-Flow Design:
+Flow 1: Rubric Creation from Scratch:
+Inspired by Canvas rubrics but with improved iconography and adapted to the WAT UI.
+Teachers create criteria (rows) and performance levels within each criterion (columns).
+Each criterion/level has points and descriptions.
+Added functionality to duplicate, edit, or delete individual criteria or levels for efficiency.
+UI: Table-like structure with "+" icons for adding new elements.
+Flow 2: Rubric View Mode:
+For teachers: When creating/editing an assignment to see which rubric is being attached.
+For students: When they first access an assignment, to understand evaluation criteria.
+Flow 3: Rubric Comment/Evaluation Mode (Teacher):
+Teachers click on the desired level cell within each criterion to mark their evaluation.
+A comment box appears next to each selected level for specific feedback.
+Points for selected levels automatically sum up to a total score.
+Flow 4: Evaluated Rubric View (Student):
+Students see the teacher's selections, the auto-calculated score, and all comments on their feedback page.
+
+Impact: Provided a comprehensive and user-friendly rubric system that met teachers' expressed needs for autonomy and detailed evaluation.
+3.3.2. Analytics Feedback Page Redesign
+Initial State: A simple UI with student submission at the top, followed by a teacher comment area, and then WAT analytics. Each WAT metric (e.g., Academic Focus, Information Density) was shown as a score on a spectrum bar (0-100), with hover-activated popovers explaining the extremes. This required significant scrolling and interpretation effort.
+Teacher Needs (from Focus Groups):
+Visual snapshot of all key metrics.
+Integrated rubric view.
+More interpretable and less "judgmental" analytics scores.
+Simultaneous view of student submission while reviewing analytics.
+
+Design Iterations & Solution:
+Layout: Adopted a 4+8 column layout.
+Left (4-column, collapsible): Student essay submission.
+Right (8-column): Tabs for "Rubric" and "WAT Analytics."
+
+
+WAT Analytics Tab - Visualizations:
+Line Graph: To map student progress across multiple drafts for selected metrics (teacher-selectable).
+Spider Chart: For an instant visual snapshot of student performance across multiple selected metrics (rendered if >3 metrics). Stakeholders highly approved this for its holistic view.
+
+
+WAT Analytics Tab - Score Interpretation (Key Innovation):
+Challenge: The continuous spectrum scores were hard to interpret and could feel negative. Breaking them into fixed chunks was considered but still felt prescriptive.
+Solution: Likert Scale & Teacher-Set Targets:
+For each metric, instead of a raw spectrum, present a Likert-type scale (e.g., 5-7 points representing ranges like "Very Casual" to "Highly Academic").
+In Assignment Creation: Teachers can indicate on this same Likert scale where they want the student's writing to lean for specific metrics.
+In Feedback View: The student's actual score (represented as a dot/marker on the Likert scale) is shown alongside the teacher's indicated target.
+Popovers explain each point on the Likert scale and offer guidance.
+
+
+Teacher Interaction: Rubric is editable; teachers can add overall comments.
+Student Interaction: All feedback is view-only, but students can comment back.
+
+
+
+
+Impact: This "teacher indication + student score" on a Likert scale was a breakthrough. It made the feedback non-prejudicial, highly contextualized, and actionable. It empowered teachers to guide students effectively and was approved for production. Reusable components were designed for displaying these metric scores.
+
+3.3.3. Student Performance Pages
+Challenge: Teachers needed to track class-wide and individual student progress over time and across assignments. Students needed to see their own progress.
+Solution - Tiered Visualization:
+Teacher View:
+Class Performance Page: Visualizations (line graphs, pie charts) and data tables of overall class performance on assignments.
+Assignment Progress Page (drill-down): Student-wise line graphs, pie charts of submission status, and data table of individual student performance on that specific assignment.
+Individual Student Performance Page (drill-down): Tracks a single student's performance across multiple assignments.
+
+
+Student View: Students see their own individual performance page, similar to the teacher's individual student view.
+
+
+Impact: Provided powerful data visualization tools for teachers to monitor and support student learning. Reused components for development efficiency.
+
+
+###Chapter 4: Outcomes, Impact & Learnings
+
+####4.1. Measurable & Observable Outcomes:
+
+Strategic Product Shift: Focus group insights directly reshaped the product roadmap, prioritizing features critical for teacher adoption and effective beta testing.
+Improved Usability & Acceptance (Qualitative):
+The redesigned feedback and rubric systems directly addressed teacher concerns about clarity, customization, and interpretability, as highlighted in focus group findings.
+LEI's primary goal of user acceptance and perceived usability was significantly advanced by these user-centered design changes.
+
+
+Foundation for Scalability: The design system became the backbone for ongoing development, supporting the platform's readiness for beta testing with <FILL IN: Number of schools/users anticipated for beta, if known>.
+Academic Validation: Design process and research insights contributed to a LAK2025 conference paper submission.
+Enhanced Development Pipeline:
+Documented 50+ bugs and enhancements, leading to a more polished product.
+Established a clearer design-to-development workflow, improving collaboration.
+
+
+Personal & Professional Growth:
+Progressed from student worker to full-time team member.
+Gained a "seat at the table" in strategic discussions regarding LMS integration (Canvas, LTI tools) and collaborations with other AI tools for pre-evaluation and post-analysis.
+
+
+####4.2. Key Learnings:
+
+The Power of Direct User Feedback: Witnessing teachers interact with the tool was invaluable and transformative for the design direction. Assumed needs often differ from real needs.
+Designing for Complex Data: Learned techniques for progressive information disclosure, effective data visualization, and translating complex analytics into understandable and actionable insights for non-expert users.
+Iterative Design in Practice: The evolution of the feedback page, from simple spectrums to sophisticated Likert-scale comparisons, underscored the importance of iteration and stakeholder buy-in.
+Balancing User Needs, Technical Constraints, and Business Goals: Constantly navigated these factors to deliver effective solutions.
+The Value of a Design System: Experienced firsthand how a robust design system accelerates design and development and ensures product coherence.
+Advocacy for UX: Learned to articulate the value of UX research and design decisions to a multidisciplinary team.
+Pitching Solutions: Gained experience in presenting and justifying design solutions to stakeholders.
+
+###Chapter 5: Reflections & Next Steps
+
+Current Status: The redesigned features are in production, and the platform is being prepared for wider beta testing in schools (anticipated July <FILL IN: Year of Beta Test>).
+My Evolving Role: Actively participating in strategic discussions for future integrations (LMS, other AI tools) and potentially leading user research for the beta testing phase.
+Future Focus: Keen to continue working on data-rich applications where UX can significantly impact usability and value. Interested in further exploring the intersection of AI, education, and user-centered design.
+
+##Appendix: Supporting Information
+
+Tools Used:
+Design & Prototyping: Figma, FigJam
+Design System Implementation: CSS
+Research: Focus Groups, Usability Testing, Qualitative Analysis (ASU Betaland AI)
+Project Management & Documentation: Airtable, Asana
+
+
+Team Structure: Sole UX designer on an interdisciplinary team (engineers, data scientists, researchers).
+
+
+##FAQs (Potential Questions & Answers)
+Q: How did you manage being the sole UX designer on a technical team?
+A: I focused on proactive communication, justifying design decisions with user research or established UX principles. I learned to understand technical constraints by working closely with developers (e.g., basing the design system on Material components they already used). I also ensured my deliverables (prototypes, specs) were extremely clear. Building the design system was a key early win that demonstrated value and made collaboration easier.
+
+
+Q: What was the biggest challenge in designing the feedback interpretation page?
+A: The biggest challenge was moving beyond just displaying data to making it truly interpretable and actionable without overwhelming users or making the feedback feel punitive. The raw NLP scores were powerful but abstract. The iteration from spectrums to banded interpretations, and finally to the Likert scale with teacher-set targets, was key to solving this. It required understanding teacher psychology and classroom dynamics, not just UI patterns.
+
+
+Q: How did the focus group findings directly change your design priorities?
+A: Before the focus groups, much of the work was on system homogenization and foundational features. The focus groups revealed that without significant improvements to rubric customizability and feedback clarity, teacher adoption would be low. This immediately elevated the redesign of the rubric system and the feedback page to the highest priority. For instance, the explicit need for teachers to "set target metric values" directly led to the teacher-indication feature on the Likert scale.
+
+
+Q: Can you elaborate on how you built the design system?
+A: I started by analyzing the existing (rudimentary) MVP and identifying common UI elements. Since the developers were already familiar with Material Design components, I chose to base the WAT design system on Material principles for easier adoption. This involved defining a consistent color palette (primary, secondary, semantic colors), typography scale, spacing guidelines, iconography, and component states (buttons, inputs, cards, etc.). I built these out in Figma as reusable components and also coded some foundational CSS to ensure the implementation matched the design intent. The nomenclature also mirrored Material Design for clarity.
+
+
+Q: How did you ensure your designs were technically feasible?
+A: Constant communication with the engineering team was crucial. I held regular check-ins, shared early-stage concepts, and specifically discussed implementation details of more complex features like the interactive rubric or the dynamic feedback visualizations. Basing the design system on Material Design also helped, as it provided a known framework for developers. For novel interactions, I would often prototype them in detail in Figma to demonstrate the intended behavior clearly.
+
+
+Q: What aspects of the Writing Analytics Tool are you most proud of?
+A: I'm most proud of the redesigned feedback interpretation page, particularly the introduction of the teacher-indicated targets on the Likert scale. It was a complex problem that required moving beyond a purely data-visualization approach to one that considered pedagogy and user psychology. Seeing that solution get stakeholder approval and move into production, knowing it directly addressed a core user need, was very rewarding. Also, establishing the design system from scratch provided a solid foundation for the whole product.
+
+
+##Follow-up Prompts (Information to support these is in the sections above):
+
+Tell me more about the specific design challenges you faced when translating complex analytics data into understandable teacher interfaces. (Covered in 3.3.2)
+Walk me through your process for conducting the focus group sessions and how you synthesized those insights into design changes. (Covered in 3.2)
+Describe how you approached building the design system and what technical considerations influenced your CSS implementation decisions. (Covered in 3.1)
+Explain how your role evolved from student worker to full-time team member and what skills you developed along the way. (Covered in 4.1, 4.2)
+What are you most excited about regarding the upcoming beta testing phase and how are you preparing to lead that research? (Covered in 5.0, inferring preparation based on previous research leadership)

@@ -1,0 +1,52 @@
+#Ceiling Fan Study
+
+##Chapter 1: Context & Goals
+
+This project emerged from my Human Systems Engineering coursework at Arizona State University, where I needed to identify and analyze human factors problems in everyday products. After spending a semester diving deep into research literature on cognitive psychology, perception, and human-computer interaction, I chose to focus on something deceptively simple: ceiling fan pull-chain controls.
+The choice wasn't random. I'd personally experienced frustration with these systems, and I suspected there were deeper psychological principles at play. The goal was to combine rigorous academic research with practical user testing to understand why such a common household item could be so poorly designed, then propose evidence-based solutions.
+
+##Chapter 2: Approach & Key Decisions
+
+My approach blended literature review with empirical observation. I spent months reading research papers on control discrimination, visual perception of rotational motion, memory encoding, and decision-making under uncertainty. The academic foundation was crucial—it gave me the theoretical framework to understand what I was observing.
+For the practical component, I designed a controlled usability study using a Hampton Bay 52-inch ceiling fan as the test subject. The fan had the typical setup: two identical metal-ball chains, differentiated only by length, with no labels or visual indicators. I recruited five university students with varying experience levels and structured individual testing sessions with pre- and post-test interviews.
+The key decision was treating this as rigorous research, not just casual observation. I followed proper experimental protocols, recorded quantitative data, and maintained academic standards throughout.
+
+##Chapter 3: Challenges & Solutions
+
+The biggest challenge was connecting observed user behavior to established psychological principles. When I saw participants struggling to remember which chain controlled what, or having difficulty judging fan speeds, I needed to explain why these problems occurred at a fundamental level.
+The literature revealed fascinating insights. Human memory is particularly weak when it comes to rotational motion—we can't reliably encode or recall the speed of rotating objects. The identical chains created a control discrimination problem where users had to rely on memory rather than immediate visual cues. The oblique viewing angle when looking up at fan blades further complicated speed perception.
+I also had to balance academic rigor with practical application. The solution needed to be theoretically sound but also feasible for manufacturers to implement without major redesign.
+
+##Chapter 4: Outcomes & Impact
+
+The results were striking. Despite months of exposure to pull-chain fans, participants struggled with basic operations. Only 4 of 5 completed the task successfully, 2 initially pulled the wrong chain, and everyone expressed discomfort with the system. The timing data correlated directly with their reported frustration levels.
+From an academic standpoint, the project was highly successful. I earned a 4.22/4.0 grade and received praise from my instructor for the depth of analysis and quality of writing. More importantly, I'd identified specific, fixable design problems and proposed a practical solution.
+My proposed icon-indicator system addressed the core issues: it provided immediate visual feedback about current fan speed, eliminated the need to judge rotational velocity, and created better discrimination between the two chains through proximity and salience.
+
+##Chapter 5: Reflections & Next Steps
+
+This project fundamentally shaped how I approach design problems. It taught me that good design isn't just about aesthetics or functionality—it's about understanding human psychology and designing with cognitive limitations in mind.
+The research also highlighted how academic rigor can inform practical design decisions. By grounding observations in established psychological principles, I could propose solutions with confidence rather than just intuition.
+If I were to extend this work, I'd love to prototype and test the proposed solution, expand the study to include more diverse participants, and explore how these principles apply to other everyday products with hidden usability issues.
+
+##Appendix: Key Facts
+
+Solo research project spanning one semester (Aug-Nov 2022)
+5-participant usability study with structured pre/post-test interviews
+Analysis grounded in 5 key psychological principles: control discrimination, visual perception, memory, bottom-up processing, and decision-making
+Achieved 4.22/4.0 academic grade with instructor commendation
+Proposed feasible design solution compatible with existing mechanical systems
+Academic paper written to peer-review journal standards with extensive literature citations
+
+##FAQs
+
+Q: How did you ensure research validity with such a small sample? A: While the sample was small, this was exploratory research focused on identifying usability patterns and connecting them to established psychological principles. The consistent findings across participants, combined with the strong theoretical foundation, provided compelling evidence for the design problems identified.
+Q: Could your proposed solution actually be manufactured? A: Yes, the icon-indicator system was designed specifically to work with existing pull-chain mechanisms. It requires no electrical power and uses simple mechanical indicators that change position when the chain is pulled, making it feasible for manufacturers to implement.
+
+##Follow-ups
+
+Walk me through the specific psychological principles you identified and how they manifested in user behavior.
+Describe your proposed design solution in more detail—how would it actually work mechanically?
+What other everyday products could benefit from similar human factors analysis?
+How did this academic research influence your approach to professional design projects?
+If you had unlimited resources, how would you expand this research?

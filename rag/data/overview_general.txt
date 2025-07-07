@@ -1,0 +1,107 @@
+#Nishad Anil Patne
+
+##Primary Roles: UX Designer, Researcher, and Engineer with a focus on enterprise applications, educational technology (EdTech), and AI-driven products.
+
+##Experience Level: 4+ years of professional experience spanning front-end development, UX research, product design, and strategic technical leadership.
+
+##Core Narrative: Nishad began his career as a Front-End Developer (Deloitte), where he gained foundational experience in enterprise-grade web development and accessibility. He then pursued a Master of Science in User Experience at ASU to pivot towards human-centered design. His current work represents a fusion of these skills, positioning him as a Design Engineer who bridges user needs with technical implementation. He has a proven track record of taking on complex projects, leading them from concept to launch, and making critical strategic pivots when necessary.
+
+##Key Skill Areas:
+
+###UX/UI & Product Design: Information Architecture, User Flows, Wireframing, High-Fidelity Prototyping, Lean Product Design, Data Visualization.
+
+###Design Systems: Architecture and implementation of scalable design systems, including component library creation (Figma) and code implementation (CSS, Token Studio).
+
+###Full-Stack & Web Development: HTML, CSS, JavaScript, Python, Django, React.js, Angular, Electron (for desktop apps).
+
+###AI & ML: Practical implementation of Retrieval-Augmented Generation (RAG) systems, LLM integration (Gemini Pro), Vector Databases (Qdrant), and orchestration frameworks (Haystack).
+
+###UX Research: Heuristic Evaluation, User Surveys, Moderated Usability Testing, Focus Groups, Human Factors Analysis, Persona Development.
+
+##Professional Experience Summary:
+
+###Learning Engineering Institute, ASU (Product Designer): Led UX for complex EdTech platforms (WAT, iSTART), designed and built teacher/admin portals, created design systems, and developed interactive learning modules. Co-led user research resulting in publishable studies.
+
+###Deloitte (Front-End Developer): Developed and implemented client change requests in a Salesforce environment, improved user retention and accessibility, and facilitated cross-border team collaboration.
+
+###GIT, ASU (Teaching Assistant): Evaluated 400+ UX assignments, providing actionable feedback and contributing to course quality.
+
+##Education:
+Master of Science, User Experience (HCI) - Arizona State University
+Bachelor of Technology, Electronics Engineering - Veermata Jijabai Technological Institute
+
+
+
+#Project Overviews
+
+##1. Writing Analytics Tool (WAT)
+
+Summary: Transformed a rudimentary, developer-built MVP into a user-centric educational platform by leading end-to-end UX design, research, and strategy.
+My Role: Lead UX Designer.
+Challenge: The tool's powerful NLP analytics were unusable for teachers and students due to a rudimentary UI, unclear feedback, and inconsistent flows.
+Key Contributions & Outcomes: Created a scalable design system (Figma & CSS). Led user research (focus groups) that directly pivoted product strategy. Redesigned core features like rubric creation and analytics interpretation, introducing a novel Likert-scale feedback system. Contributed to a LAK2025 academic paper and documented 50+ bugs/enhancements. Gained strategic influence in the product's future direction.
+Technologies & Methods: Figma, CSS, Focus Groups, Usability Testing, Qualitative Analysis, Asana, Airtable, Cross-functional collaboration.
+
+##2. WAT Researcher: Desktop-First Platform
+
+Summary: Spearheaded a critical strategic pivot from a failing web-first strategy to a powerful desktop application, single-handedly designing and engineering the new full-stack solution.
+My Role: Sole UX Designer & Full-Stack Engineer.
+Challenge: The initial web-based strategy for a text analysis tool was found to be prohibitively expensive and unscalable due to computationally intensive backend processes. The project was at risk of failure.
+Key Contributions & Outcomes: Identified the strategic flaw, proposed the pivot to a desktop-first solution, and got it approved. Designed the entire UX and architected a superior project-based workflow. Single-handedly developed the full-stack application (Angular, Django/Python) and packaged it for macOS/Windows (Electron, PyInstaller). This move saved the institute significant costs and established a new desktop development capability.
+Technologies & Methods: Angular, Django, Python, Electron, PyInstaller, SQLite, Figma, Strategic Pivoting.
+
+##3. iSTART Early: Gamified Learning Ecosystem
+
+Summary: Led the UX architecture for a large-scale NLP-powered learning platform, building the Teacher Portal from scratch, overhauling the Student Hub, and developing numerous interactive learning modules.
+My Role: UX Architect & Practice Leader.
+Challenge: The platform had a three-front problem: no teacher-facing tools, a disjointed student experience, and learning modules that were functionally isolated from the main hub.
+Key Contributions & Outcomes: Architected and designed the entire Teacher Portal. Redesigned the Student Hub. Personally developed 5+ complex interactive modules in Articulate Storyline, writing custom JavaScript to bridge data to the main Angular platform. Engineered a design system with an automated token pipeline (Token Studio), improving development efficiency by 40%. The resulting platform is now the foundation for grant-funded academic research. Also explored a future-vision mobile app concept powered by AI.
+Technologies & Methods: Figma, Token Studio, Articulate Storyline 360, JavaScript, CSS, Usability Testing, Stakeholder Interviews.
+
+##4. AI-Powered Portfolio Chatbot
+
+Summary: A self-directed project to build a conversational RAG AI chatbot for his portfolio, demonstrating mastery of modern AI engineering principles and strategic problem-solving.
+My Role: Solo Design Engineer & AI Architect.
+Challenge: A traditional portfolio is a static, one-way medium. The goal was to create a dynamic, conversational layer for exploration. A critical challenge was pivoting from an initial, unscalable self-hosted model to a robust API-driven architecture.
+Key Contributions & Outcomes: Designed and built a complete RAG system from the ground up. Made a pragmatic and well-documented pivot from a flawed self-hosted Llama model to a scalable architecture using Gemini Pro, Qdrant, and Haystack. Successfully deployed the application on Oracle Cloud. Transformed a static portfolio into an interactive, dialogue-driven tool.
+Technologies & Methods: RAG, Gemini Pro LLM, Haystack, Qdrant Vector Database, Python, Oracle Cloud, Next.js.
+
+
+##5. Paani Foundation Website Redesign
+
+Summary: A foundational academic project involving a comprehensive UX research study for a real-world non-profit, leading to data-backed design recommendations.
+My Role: UX Researcher (Independent).
+Challenge: The website had poor navigation and information architecture, making it difficult for users to find key information like activity details, press articles, and contact info.
+Key Contributions & Outcomes: Conducted heuristic evaluation, user surveys (19 responses), and moderated usability testing (5 users). Identified 11 usability issues, with navigation being the root cause of 5. Delivered high-fidelity prototypes and prioritized recommendations that earned stakeholder praise and a teaching assistant position.
+Technologies & Methods: Nielsen's Heuristics, Figma, Google Forms, Persona Development, Moderated Usability Testing, Quantitative Analysis.
+
+##6. Ceiling Fan Pull-Chain Controls: A Human Factors Study
+
+Summary: An academic research project analyzing the usability flaws of a common household product through the lens of cognitive psychology and human factors principles.
+My Role: Human Factors Researcher.
+Challenge: Pull-chain fans cause user frustration due to poor control discrimination and reliance on faulty human perception of motion.
+Key Contributions & Outcomes: Conducted a 5-person usability study, synthesized findings with academic literature on memory and perception, and authored a research paper. Proposed a feasible icon-indicator system to reduce cognitive load. The study found a 40% initial error rate and 100% user discomfort.
+Technologies & Methods: Human factors analysis, usability testing protocols, academic literature synthesis, psychological principle application.
+
+##7. Jerry the Junior Research AIde
+
+Summary: A conceptual enterprise project to design a comprehensive research management platform for academic researchers.
+My Role: UX Designer (in a team of two).
+Challenge: Academic researchers use scattered tools, leading to fragmented workflows and chaotic data management.
+Key Contributions & Outcomes: Conducted researcher interviews to identify pain points. Designed the complete information architecture, user flows, and mid-fidelity prototypes for 10 core features. Developed a custom design system based on Material Design 3. The project became a key portfolio piece demonstrating enterprise UX capabilities.
+Technologies & Methods: Figma, FigJam, Material Design 3, User Interviews, Competitive Analysis, Information Architecture.
+
+
+##8. Project Sandbox: Mini-Projects
+
+Summary: A collection of smaller, focused projects demonstrating design and development versatility across different domains.
+8.1. Don't Panic - Job Scam Prevention Resource
+Role: Co-creator.
+Purpose: A web resource to help job seekers recognize and avoid employment scams.
+8.2. RTMT - Reading Text Management Tool
+Role: UI Designer.
+Purpose: UI design for an academic tool to streamline text management workflows for researchers.
+8.3. Figma Tooltip Plugin
+Role: Plugin Developer.
+Purpose: A Figma plugin that automates tooltip generation, eliminating repetitive work for designers.
+Impact: Successfully launched and adopted by over 6,000 active users, demonstrating product-market fit.

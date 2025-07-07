@@ -1,0 +1,55 @@
+WAT Researcher
+
+Chapter 1: Context & Goals
+When I joined the Learning Engineering Institute as a UX student worker in 2023, I had no idea I'd eventually lead the replacement of one of their most critical research tools. The WAT Researcher project became my opportunity to prove I could handle end-to-end product development, transitioning from student worker to full-time staff by December 2024.
+The challenge was significant: Coh-Metrics, LEI's existing research tool, served over 5000 researchers globally and received more than 10 daily access requests. This wasn't just another application—it was critical infrastructure for the academic research community. The pressure was on to create something that wouldn't just match the original but would significantly improve the researcher experience while maintaining the reliability they depended on.
+My goal was ambitious: design and develop both desktop and web versions of a sophisticated text analysis platform that could handle complex corpus management, customizable metrics, and real-time analysis workflows. The desktop version needed to be feature-rich with project management capabilities, while the web version required streamlined functionality due to resource constraints.
+The project began with a clear goal: replace Coh-Metrics, a critical but aging research tool, with a modern web application. My initial role was to design and then develop the front-end interface. I successfully executed this first phase, building a functional 3-page web application using Angular. This demonstrated my ability to quickly deliver a high-quality product and re-engaged my full-stack development skills. The initial web app was complete from a front-end perspective and ready for backend integration.
+Chapter 2: The Crisis Point: Uncovering a Flawed Strategy
+The project's core challenge emerged when the backend team began integrating the core Natural Language Processing (NLP) module.
+The Technical Problem: The analysis process was extremely resource-intensive. A single user request could consume significant server CPU and memory for an extended period.
+The Business Problem: The initial "web-first" strategy was therefore critically flawed. To support our community of 5,000+ researchers, we would need a massive, costly server infrastructure and a complex job-queuing system (e.g., RabbitMQ) to manage concurrent requests. This was neither financially nor technically feasible for our institute. The project was headed toward failure.
+Chapter 3: My Initiative: Proposing and Leading the Pivot to Desktop
+Rather than letting the project stall, I took the initiative to find a viable path forward.
+Research & Ideation: I identified that a desktop application could solve the problem at its root by shifting the computational load from our servers to the user's own computer. I researched cross-platform technologies that would allow me to leverage my existing Angular work.
+Proof of Concept: I identified Electron (for the application wrapper) and PyInstaller (for packaging the Python backend) as the ideal tools. I built a functional proof-of-concept (POC) to demonstrate that we could bundle the entire application—frontend, backend, and all dependencies—into a single, distributable file.
+Strategic Proposal: I presented the POC to my boss and key stakeholders. I outlined the benefits:
+Elimination of Server Costs: A massive financial and operational saving.
+Vastly Superior Features: The ability to add robust features like project management, local file access, and offline capabilities.
+Improved User Experience: No more waiting in a server queue for results.
+
+
+The New Strategy: My proposal was accepted. The project was officially pivoted. The desktop application would become the primary, full-featured product. The web application I had already built would be strategically re-scoped into a complementary, lightweight tool for users needing to perform a quick, single-file analysis. It is scheduled to go live in September.
+Chapter 4: My Role & Detailed Contributions (Desktop Application)
+With the new strategy in place, I took on the role of sole UX Designer and Engineer for the desktop application.
+UX Architecture & Design: I designed the entire multi-screen application in Figma. I created a project-based user flow that fundamentally improved the research process, allowing users to manage corpora, analyses, and results within a single, organized workspace. This was a direct response to the limitations of the old tool.
+Full-Stack Engineering: I single-handedly built the entire application.
+Frontend: Re-used and expanded upon the Angular components from the web version.
+Backend: Built the local server logic in Django/Python, using SQLite to create and manage a local database for all project metadata.
+
+
+Cross-Platform Packaging & Distribution: This was a major technical undertaking. I developed a robust build process using PyInstaller to package the Python backend and its dependencies into a single executable, and then used Electron to wrap the Angular UI and the backend executable into installable packages for both macOS and Windows. This included writing custom shell scripts to automate the process. I am also preparing for the final step of software signing to ensure trusted distribution.
+Technical Problem-Solving: A critical dependency on the 'R' programming language was a major roadblock for packaging, especially on macOS. It was not self-contained and would have been a poor user experience. I worked with my lead (the NLP expert) to identify a suitable Python library that could replace the 'R' functionality. I then successfully integrated this new library, making the application fully portable and R-free.
+Mentorship & Leadership: As the project nears completion, I am now supervising a junior team member. My responsibilities include delegating and overseeing the creation of user guides and the execution of the formal QA testing plan.
+Chapter 5: Key Features of the Desktop Solution
+The desktop application I architected and built empowers researchers with a complete, self-contained analysis environment.
+Project-Based User Flow: Create and manage distinct projects containing corpora and analyses.
+Flexible Corpus Management: Supports individual file pairs, bulk CSV uploads, and direct folder imports.
+Customizable Analysis: Create, edit, and duplicate analysis tasks with specific titles, genres, and selected metrics.
+Local Task & Results Handling: An offline task queue processes jobs locally. Results are output as CSV files, with all paths and metadata stored in the local SQLite database.
+Real-time Notifications: Clear feedback on task status, including completion and detailed error messages.
+Chapter 6: Anticipated Q&A
+Q: Can you clarify the relationship between the web and desktop versions?
+A: They are two distinct products serving different use cases, born from a strategic pivot. I first built the web front-end. When we realized a full-featured web app was unscalable, I proposed and then built the desktop version as the powerful, primary tool for in-depth research. The web app was then repurposed as a lightweight, public-facing tool for quick, single-text analyses, leveraging my initial development work.
+
+
+Q: Walk me through the technical challenge of removing the 'R' dependency.
+A: The 'R' library was a problem because it couldn't be easily bundled into a self-contained executable with PyInstaller; it would have required the end-user to install 'R' on their system, which is a major barrier. I collaborated with my lead to find a Python-based NLP library that offered equivalent functionality. The process involved testing the new library's outputs against the old one's to ensure scientific validity, then refactoring the Django backend to replace all the 'R' calls with calls to the new Python library. This made the application fully portable.
+
+
+Q: What was the most difficult part of the packaging process with Electron and PyInstaller?
+A: The most complex part was ensuring the "frozen" PyInstaller executable containing the Django backend could be reliably started and stopped by the main Electron process on both Windows and macOS. This required careful management of child processes and writing platform-specific shell scripts to handle file paths and permissions correctly, especially for the pre-populated SQLite database that ships with the app.
+
+
+Q: How did this project position you for a more strategic role?
+A: It fundamentally changed my role. I moved from executing a given task (build a web UI) to identifying a critical strategic flaw in the project and then owning the new solution—from conception and design to full-stack engineering and team leadership. It proved I can manage product strategy, technical architecture, and execution simultaneously.
